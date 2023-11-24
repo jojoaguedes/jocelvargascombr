@@ -1,0 +1,107 @@
+html {
+    height: 100%;
+    min-height: 100%;
+  }
+
+  @font-face {
+    font-family: fonte-principal;
+    src: url(fonts/Squartiqa4FStrike.ttf);
+}
+
+@font-face {
+    font-family: fonte-secundaria;
+    src: url(fonts/OpenSans-VariableFont_wdth,wght.ttf);
+}
+
+
+body {
+    background-image: url(images/background.png);
+    padding: 0 10%;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+
+p {
+    color: white;
+}
+
+iframe {
+    height: 570px;
+  }
+
+button {
+    background-color: rgb(50, 64, 71);
+    border-color: rgb(253, 236, 11);
+    border-width: 3px;
+    font-family: fonte-principal;
+    color: white;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.home,
+.direita {
+    display: flex;
+    flex-direction: row;
+}
+
+.home {
+    justify-content: center;
+}
+
+#bem-vindo {
+        direction:ltr;
+        font-family: 'fonte-principal', monospace;
+        margin-left:0em;
+        line-height:0.86390503em;
+        text-transform:none;
+        letter-spacing:-0.05em;
+}
+
+#descricao {
+    font-family: 'fonte-secundaria', monospace;
+    line-height: 1.26087505em;
+    text-align: justify;
+    font-weight: 500;
+    letter-spacing: -0.05em;
+    text-shadow: 0.04408389em 0.06067627em 0.0125em rgba(0, 0, 0, 0.300000);
+}
+
+#video-conexao-total {
+   width: 95%;
+}
+
+.video,
+.media-links {
+    margin: 5%;
+}
+
+#logo-conexao-total,
+#descricao {
+    width: 67%;
+}
+
+.social-links {
+    display: flex;
+    img {
+        width: 50px;
+        margin-right: 10%;
+    }
+}
+
+.media-links {
+    display: flex;
+    flex-direction: column;
+    img {
+        padding-bottom: 100%;
+    }
+}
+
+.uma-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
