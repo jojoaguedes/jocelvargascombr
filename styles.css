@@ -27,7 +27,9 @@ p {
 }
 
 iframe {
-    height: 570px;
+    height: 100%;
+    margin-left: -10%;
+    margin-top: 5%;
   }
 
 button {
@@ -81,7 +83,7 @@ button {
 
 #logo-conexao-total,
 #descricao {
-    width: 67%;
+    width: 60%;
 }
 
 .social-links {
