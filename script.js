@@ -1,7 +1,7 @@
 const Links = {
     urlWhatsapp: "https://wa.me/message/6APDXKIURGWRD1",
     urlInstagram: "https://instagram.com/jocelvargasoficial",
-    urlFacebool: "https://www.facebook.com/JocelVargasOficial/",
+    urlFace: "https://www.facebook.com/JocelVargasOficial/",
     urlSpotify: "https://open.spotify.com/artist/7nfkCHEbzmE0CWTnV3GTFq",
     urlDeezer: "https://deezer.page.link/VnYsP1nCbUQgNr5EA",
     urlAppleMusic: "https://music.apple.com/br/artist/jocel-vargas/1502460982",
@@ -26,6 +26,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 break;
             case 'whatsappLink':
                 navegarLinkEmNovaAba(Links.urlWhatsapp);
+                break;
+            case 'faceLink':
+                navegarLinkEmNovaAba(Links.urlFace)
                 break;
             case 'spotifyLink':
                 navegarLinkEmNovaAba(Links.urlSpotify);

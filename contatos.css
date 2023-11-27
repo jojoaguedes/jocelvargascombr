@@ -31,28 +31,33 @@ html {
      color:#ffffff;
     }
 
+  .link {
+        cursor: pointer;
+    }
+
   .esquerda {
      max-width: 100%;
      display: flex;
      flex-direction: column;
+     margin-top: 4%;
         
       .uma-div {
-         max-width: 100%;
-         display: flex;
+         display: 100%;
          flex-direction: column;
          align-items: center;
 
          #logo-conexao-total {
              width: 62%;
-             margin-top: 5%;
+             margin-left: 15%;
             }
 
          .social-links {
              display: inline-flex;
              justify-content: center;
              align-items: center;
-             margin-left: 10%;
-             margin-top: 0%;
+             z-index: 7;
+             margin-left: 0%;
+             margin-top: 3%;
 
                 img {
                  width: 10%;
@@ -61,45 +66,53 @@ html {
                 }
 
                 #submit-whatsapp {
-                 margin-left: 4%;
+                 height: 100%;
+                 z-index: 8;
+                 background-color: rgb(50, 64, 71);
+                 border-color: rgb(253, 236, 11);
+                 border-width: 3px;
+                 font-family: fonte-principal;
+                 line-height: 1.3em;
+                 color: white;
+                 margin-left: 5%;
                 }
             }
         }
     }
 
   .meio {
-     max-width: 100%;
-     margin-left: 54%;
-     margin-top: 5%;
+     
+     margin-left: 52%;
+     margin-top: 8%;
         
      #chamada {
          direction:ltr;
          font-family: 'fonte-secundaria', monospace;
          text-align: center;
-         margin-left:0em;
-         line-height:0.86390503em;
+         line-height: 1.3em;
          text-transform:none;
          letter-spacing:-0.05em;
         }
     }
 
   .direita {
-     max-width: 100%;
+     
      display: flex;
      flex-direction: row;
      position: relative;
-     margin-left: -15%;
+     margin-left: -10%;
+     margin-top: 6%;
   
       .sobrepostos {
          
          #eu { 
-             max-width: 100%;
+             
              width: 88%;
              z-index: 1;
             }
   
          #quadro {
-             max-width: 100%;
+            
              width: 65%;
              z-index: 2;
              position: absolute;
@@ -149,10 +162,10 @@ html {
          display: flex;
          flex-direction: column;
          position: absolute;
-         margin-left: 79%;
-         margin-top: 8%;
+         z-index: 6;
+         margin-left: 78%;
           img {
-             width: 60%;
+             width: 80%;
              padding-bottom: 60%;
             }
         }

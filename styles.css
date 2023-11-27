@@ -27,16 +27,17 @@ p {
 }
 
 iframe {
+    margin: 5%;
     height: 100%;
-    margin-left: -10%;
-    margin-top: 5%;
   }
 
 button {
+    margin-left: 10%;
     background-color: rgb(50, 64, 71);
     border-color: rgb(253, 236, 11);
     border-width: 3px;
     font-family: fonte-principal;
+    line-height: 1.3em;
     color: white;
 }
 
@@ -72,25 +73,25 @@ button {
     text-shadow: 0.04408389em 0.06067627em 0.0125em rgba(0, 0, 0, 0.300000);
 }
 
-#video-conexao-total {
-   width: 95%;
-}
-
 .video,
 .media-links {
     margin: 5%;
+    margin-left: -15%;
+    margin-right: 27%;
 }
 
-#logo-conexao-total,
 #descricao {
-    width: 60%;
+    width: 90%;
+    align-items: center;
 }
 
 .social-links {
+    margin-left: 18%;
     display: flex;
     img {
-        width: 50px;
-        margin-right: 10%;
+        width: 10%;
+        height: 80%;
+        margin-right: 5%;
     }
 }
 
@@ -103,7 +104,11 @@ button {
 }
 
 .uma-div {
-    display: flex;
+    display: 100%;
     flex-direction: column;
     align-items: center;
+    #logo-conexao-total {
+        width: 62%;
+        margin-left: 13%;
+       }
 }
