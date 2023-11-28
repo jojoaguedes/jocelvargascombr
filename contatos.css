@@ -20,7 +20,7 @@ html {
     }
 
   body {
-     background-image: url(images/FUNDO_Fim.png);
+     background-image: url(images/fundoFim.png);
      background-size: cover;
      padding: 0 10%;
      display: flex;
@@ -56,7 +56,7 @@ html {
              justify-content: center;
              align-items: center;
              z-index: 7;
-             margin-left: 0%;
+             margin-left: 2%;
              margin-top: 3%;
 
                 img {
