@@ -56,17 +56,16 @@ html {
              justify-content: center;
              align-items: center;
              z-index: 7;
-             margin-left: 2%;
+             margin-left: 10%;
              margin-top: 3%;
 
                 img {
                  width: 10%;
                  height: 80%;
-                 margin-left: 4%;
+                 margin-left: 2%;
                 }
 
-                #submit-whatsapp {
-                 height: 100%;
+                button {
                  z-index: 8;
                  background-color: rgb(50, 64, 71);
                  border-color: rgb(253, 236, 11);
@@ -74,7 +73,7 @@ html {
                  font-family: fonte-principal;
                  line-height: 1.3em;
                  color: white;
-                 margin-left: 5%;
+                 margin-left: 7%;
                 }
             }
         }
@@ -82,7 +81,7 @@ html {
 
   .meio {
      
-     margin-left: 52%;
+     margin-left: 53%;
      margin-top: 8%;
         
      #chamada {
