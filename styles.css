@@ -3,7 +3,7 @@ html {
     min-height: 100%;
   }
 
-  @font-face {
+@font-face {
     font-family: fonte-principal;
     src: url(fonts/Squartiqa4FStrike.ttf);
 }
@@ -17,16 +17,50 @@ html {
 body {
     background-image: url(images/background.png);
     padding: 0 10%;
-    display: flex;
+    display: grid;
+    grid-area: coluna;
     justify-content: center;
     background-size: cover;
+}
+
+
+.pagina {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.pagina2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 11%;
+    width: 100%;
+    height: 100vh;
+}
+
+.pagina3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    margin-left: -15%;
+    width: 130%;
+    height: 130vh;
+}
+
+.home, .pagina {
+    width: 100%;
+    height: 100vh;
 }
 
 p {
     color: white;
 }
 
-iframe {
+.iframevideo {
     margin: 5%;
     height: 100%;
   }
@@ -112,3 +146,12 @@ button {
         margin-left: 13%;
        }
 }
+
+.carrossel {
+    max-width: 100%;
+    display: flex;
+    margin: 5%;
+}
+
+
+

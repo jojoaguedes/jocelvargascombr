@@ -54,3 +54,5 @@ document.addEventListener('DOMContentLoaded', function() {
         link.addEventListener('click', redirecionarLink);
     });
 });
+
+/* const container = document.querySelector(".carrossel .pag2"); */
