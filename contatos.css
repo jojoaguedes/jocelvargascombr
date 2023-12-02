@@ -36,6 +36,13 @@ p {
     cursor: pointer;
 }
 
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .esquerda {
     max-width: 100%;
     display: flex;
@@ -82,7 +89,12 @@ p {
 }
 
 .meio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
+.meio {
     margin-left: 57%;
     margin-top: 8%;
 

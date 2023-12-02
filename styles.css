@@ -105,10 +105,10 @@ p {
 }
 
 .iframevideo {
-    margin: 5%;
     aspect-ratio: 9/16;
-    margin-left: -25%;
-    height: 92%;
+    margin-left: -60%;
+    margin-top: 5%;
+    height: 93%;
   }
 
 button {
@@ -119,6 +119,7 @@ button {
     font-family: fonte-principal;
     line-height: 1.3em;
     color: white;
+    transform: translateY(-51%);
 }
 
 .link {
@@ -127,9 +128,10 @@ button {
 
 .esquerda {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-between;
     margin-top: 1%;
-    margin-left: 4%;
+    margin-left: 5%;
 }
 
 .home,
@@ -161,32 +163,31 @@ button {
     text-shadow: 0.04408389em 0.06067627em 0.0125em rgba(0, 0, 0, 0.300000);
 }
 
-.media-links {
-    margin-top: 6%;
-    margin-left: 7%;
-}
 
 #descricao {
-    width: 80%;
-    margin-top: 2%;  
+    width: 67%;
+    margin-top: 1%;
+    margin-left: 4%;  
 }
 
 .social-links {
-    margin-top: 3%;
-    margin-left: 3%;
     display: flex;
+    margin-top: 6%;
+    margin-left: 10%;
     img {
         width: 8%;
-        height: 100%;
-        margin-right: 5%;
-        margin-left: 3%;
+        padding-left: 4%;
+        transform: translateY(-50%);
     }
 }
 
 .media-links {
     display: flex;
     flex-direction: column;
+    margin-top: 6%;
+    margin-left: 22%;
     img {
+        width: 90%;
         padding-bottom: 100%;
     }
 }
@@ -195,13 +196,12 @@ button {
     display: 100%;
     flex-direction: column;
     align-items: center;
+    position: relative;
     #logo-conexao-total {
-        margin-top: 3%;
-        width: 55%;
-        margin-left: 12%;
-       }
+        width: 45%; 
+        transform: translateX(35%);
+    }
 }
-
 
 
 
