@@ -20,7 +20,7 @@ html {
     }
 
   body {
-     background-image: url(images/fundoFim.png);
+     background-image: url(images/FUNDO_Fim.png);
      background-size: cover;
      padding: 0 5%;
      display: flex;
@@ -52,11 +52,11 @@ html {
             }
 
          .social-links {
-             display: inline-flex;
+             display: flex;
              justify-content: center;
              align-items: center;
              z-index: 7;
-             margin-left: 10%;
+             margin-left: 6.2%;
              margin-top: 3%;
 
                 img {
@@ -66,14 +66,15 @@ html {
                 }
 
                 button {
+                 min-width: 35%;
                  z-index: 8;
                  background-color: rgb(50, 64, 71);
                  border-color: rgb(253, 236, 11);
                  border-width: 3px;
                  font-family: fonte-principal;
-                 line-height: 1.3em;
+                 line-height: 3.5em;
                  color: white;
-                 margin-left: 7%;
+                 margin-left: 4.2%;
                 }
             }
         }
@@ -81,7 +82,7 @@ html {
 
   .meio {
      
-     margin-left: 53%;
+     margin-left: 57%;
      margin-top: 8%;
         
      #chamada {
