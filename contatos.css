@@ -1,179 +1,187 @@
 @import "main";
 
 html {
- height: 100%;
- min-height: 100%; 
+    height: 100%;
+    min-height: 100%;
 }
-  @font-face {
-     font-family: fonte-principal;
-     src: url(fonts/Squartiqa4FStrike.ttf);
-    }
 
-    @font-face {
-        font-family: fonte-economica;
-        src: url(fonts/Economica-Regular.ttf);
-       }
+@font-face {
+    font-family: fonte-principal;
+    src: url(fonts/Squartiqa4FStrike.ttf);
+}
 
-  @font-face {
-     font-family: fonte-secundaria;
-     src: url(fonts/OpenSans-VariableFont_wdth,wght.ttf);
-    }
+@font-face {
+    font-family: fonte-economica;
+    src: url(fonts/Economica-Regular.ttf);
+}
 
-  body {
-     background-image: url(images/FUNDO_Fim.png);
-     background-size: cover;
-     padding: 0 5%;
-     display: flex;
-     justify-content: center;
-    }
+@font-face {
+    font-family: fonte-secundaria;
+    src: url(fonts/OpenSans-VariableFont_wdth,wght.ttf);
+}
 
-  p {
-     color:#ffffff;
-    }
+body {
+    background-image: url(images/FUNDO_Fim.png);
+    background-size: cover;
+    padding: 0 5%;
+    display: flex;
+    justify-content: center;
+}
 
-  .link {
-        cursor: pointer;
-    }
+p {
+    color: #ffffff;
+}
 
-  .esquerda {
-     max-width: 100%;
-     display: flex;
-     flex-direction: column;
-     margin-top: 4%;
-        
-      .uma-div {
-         display: 100%;
-         flex-direction: column;
-         align-items: center;
+html, body, span, p, form, img, a, ul, ol, li, table, tr, td, div{
+    margin: 0;
+    padding: 0; 
+    border:none; 
+    outline:none;
+    list-style-type:none;
+ }
+ 
+.link {
+    cursor: pointer;
+}
 
-         #logo-conexao-total {
-             width: 62%;
-             margin-left: 15%;
+.esquerda {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+
+    .uma-div {
+        display: 100%;
+        flex-direction: column;
+        align-items: center;
+
+        #logo-conexao-total {
+            width: 62%;
+            margin-left: 15%;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 7;
+            margin-left: 6.2%;
+            margin-top: 3%;
+
+            img {
+                width: 10%;
+                height: 80%;
+                margin-left: 2%;
             }
 
-         .social-links {
-             display: flex;
-             justify-content: center;
-             align-items: center;
-             z-index: 7;
-             margin-left: 6.2%;
-             margin-top: 3%;
-
-                img {
-                 width: 10%;
-                 height: 80%;
-                 margin-left: 2%;
-                }
-
-                button {
-                 min-width: 35%;
-                 z-index: 8;
-                 background-color: rgb(50, 64, 71);
-                 border-color: rgb(253, 236, 11);
-                 border-width: 3px;
-                 font-family: fonte-principal;
-                 line-height: 3.5em;
-                 color: white;
-                 margin-left: 4.2%;
-                }
+            button {
+                min-width: 35%;
+                z-index: 8;
+                background-color: rgb(50, 64, 71);
+                border-color: rgb(253, 236, 11);
+                border-width: 3px;
+                font-family: fonte-principal;
+                line-height: 3.5em;
+                color: white;
+                margin-left: 4.2%;
             }
         }
     }
+}
 
-  .meio {
-     
-     margin-left: 57%;
-     margin-top: 8%;
-        
-     #chamada {
-         direction:ltr;
-         font-family: 'fonte-secundaria', monospace;
-         text-align: center;
-         line-height: 1.3em;
-         text-transform:none;
-         letter-spacing:-0.05em;
-        }
-    }
+.meio {
 
-  .direita {
-     
-     display: flex;
-     flex-direction: row;
-     position: relative;
-     margin-left: -10%;
-     margin-top: 6.3%;
-  
-      .sobrepostos {
-         
-         #eu { 
-             
-             width: 88%;
-             z-index: 1;
-            }
-  
-         #quadro {
-            
-             width: 65%;
-             z-index: 2;
-             position: absolute;
-             left: 18%; 
-             top: -4%;
-            }
+    margin-left: 57%;
+    margin-top: 8%;
 
-         #parte-do-show {
-             position: absolute;
-             z-index: 3;
-             line-height: 1.26087505em;
-             font-family: 'fonte-economica', monospace;
-             text-align: center;
-             margin-left: 39%;
-             margin-top: -36%;
-             font-weight: 300;
-             font-size: 110%;
-             letter-spacing: 0.05em;
-             text-shadow: 0.04408389em 0.06067627em 0.0125em rgba(0, 0, 0, 0.300000);
-            }
-
-         #ej200 {
-             position: absolute;
-             z-index: 4;
-             width: 20%;
-             left: 45%; 
-             top: 66%;
-             transform: rotate(-25deg);
-            }
-
-         #toque {
-             position: absolute;
-             z-index: 5;
-             font-size: 50%;
-             direction: ltr;
-             font-family: 'fonte-principal', monospace;
-             text-align: center;
-             margin-left: 42%;
-             margin-top: -18%;
-             line-height: 100%;
-             text-transform: none;
-             letter-spacing: -0.05em;
-            }
-        }
-
-      .media-links {
-         display: flex;
-         flex-direction: column;
-         position: absolute;
-         z-index: 6;
-         margin-left: 78%;
-          img {
-             width: 80%;
-             padding-bottom: 60%;
-            }
-        }
-    }
-
-    #parte-do-show,
-    #siga-nos {
+    #chamada {
+        direction: ltr;
         font-family: 'fonte-secundaria', monospace;
+        text-align: center;
+        line-height: 1.3em;
+        text-transform: none;
+        letter-spacing: -0.05em;
+    }
+}
+
+.direita {
+
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: -10%;
+    margin-top: 6.3%;
+
+    .sobrepostos {
+
+        #eu {
+
+            width: 88%;
+            z-index: 1;
+        }
+
+        #quadro {
+
+            width: 65%;
+            z-index: 2;
+            position: absolute;
+            left: 18%;
+            top: -4%;
+        }
+
+        #parte-do-show {
+            position: absolute;
+            z-index: 3;
+            line-height: 1.26087505em;
+            font-family: 'fonte-economica', monospace;
+            text-align: center;
+            margin-left: 39%;
+            margin-top: -36%;
+            font-weight: 300;
+            font-size: 110%;
+            letter-spacing: 0.05em;
+            text-shadow: 0.04408389em 0.06067627em 0.0125em rgba(0, 0, 0, 0.300000);
+        }
+
+        #ej200 {
+            position: absolute;
+            z-index: 4;
+            width: 20%;
+            left: 45%;
+            top: 66%;
+            transform: rotate(-25deg);
+        }
+
+        #toque {
+            position: absolute;
+            z-index: 5;
+            font-size: 50%;
+            direction: ltr;
+            font-family: 'fonte-principal', monospace;
+            text-align: center;
+            margin-left: 42%;
+            margin-top: -18%;
+            line-height: 100%;
+            text-transform: none;
+            letter-spacing: -0.05em;
+        }
     }
 
-  
+    .media-links {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 6;
+        margin-left: 78%;
+
+        img {
+            width: 80%;
+            padding-bottom: 60%;
+        }
+    }
+}
+
+#parte-do-show,
+#siga-nos {
+    font-family: 'fonte-secundaria', monospace;
+}
