@@ -181,6 +181,7 @@ p {
         img {
             width: 80%;
             padding-bottom: 60%;
+            box-sizing: border-box;
         }
     }
 }
