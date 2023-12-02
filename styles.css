@@ -3,6 +3,35 @@ html {
     min-height: 100%;
   }
 
+@media screen and (max-width: 768px) {
+    /* regras CSS para telas menores que 768px */
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+      text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .element {
+      display: flex;
+    }
+}
+  
+@media screen and (min-width: 768px) {
+    .element {
+      display: grid;
+    }
+}
+
 @font-face {
     font-family: fonte-principal;
     src: url(fonts/Squartiqa4FStrike.ttf);
