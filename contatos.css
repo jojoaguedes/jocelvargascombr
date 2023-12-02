@@ -177,11 +177,10 @@ p {
         position: absolute;
         z-index: 6;
         margin-left: 78%;
-
+        box-sizing: border-box;
         img {
             width: 80%;
             padding-bottom: 33px;
-            box-sizing: border-box;
         }
     }
 }
