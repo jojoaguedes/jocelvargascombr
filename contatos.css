@@ -5,6 +5,12 @@ html {
     min-height: 100%;
 }
 
+@media (orientation: portrait) {
+    .esquerda, .meio, .direita {
+        width: 100%;
+    }
+}
+
 @media (max-width: 600px) {
 
     img {
@@ -16,6 +22,7 @@ html {
     }
 
     .esquerda, .meio, .direita  {
+        display: flex;
         flex-direction: column;
         width: 50%;
     }
@@ -25,7 +32,7 @@ html {
         position: absolute;
         bottom: 0;
         .social-links {
-            width: 25%;
+            width: 110%;
         }
     }
 
@@ -36,17 +43,13 @@ html {
     }
 
     .meio {
+        display: flex;
+        flex-direction: column;
         position: absolute;
         bottom: 2;
     }
 
     
-}
-
-@media (orientation: portrait) {
-    .esquerda, .meio, .direita {
-        width: 100%;
-    }
 }
 
 @font-face {
