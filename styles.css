@@ -24,7 +24,7 @@ html {
 
     .social-links {
         display: flex;
-        padding-top: 270% ;
+        padding-top: 250% ;
         padding-left: 5%;
         position: absolute;
         bottom: 1;
@@ -37,7 +37,7 @@ html {
 
     .media-links {
         width: 8%;
-        transform: translateY(-172%);
+        transform: translateY(-220%);
         padding-left: 0%;
         position: absolute;
         bottom: 0;
