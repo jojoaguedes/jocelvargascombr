@@ -5,24 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="carrossel.css">
-  <script>
-	(function(w, d, s, l, i) {
-	  w[l] = w[l] || [];
-	  w[l].push({
-		'gtm': i,
-		'id': 'AW-11333304860',
-		'v': '1'
-	  });
-	  (function() {
-		var s = d.createElement(s);
-		s.type = 'text/javascript';
-		s.async = true;
-		s.src = l + '/gtm.js';
-		var x = d.getElementsByTagName(s)[0];
-		x.parentNode.insertBefore(s, x);
-	  })();
-	})(window, document, 'script', 'https://www.googletagmanager.com/gtag/js?id=AW-{ID_DA_TAG_DO_GOOGLE}');
-  </script> 
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11333304860"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11333304860');
+</script>
   <!-- Meta Pixel Code -->
   <script>
 	!function(f,b,e,v,n,t,s)
