@@ -6,8 +6,59 @@ html {
 }
 
 @media (orientation: portrait) {
+    
     .esquerda, .meio, .direita {
+        display: flex;
+        flex-direction: column;
         width: 100%;
+    }
+
+    .uma-div {
+        width: 100%;
+        transform: translateY(-250%);
+        position: absolute;
+        bottom: 0;
+    }
+
+    
+    .sobrepostos {
+        display: flex;
+        flex-direction: row;
+        width: 120%;
+        transform: translateY(150%);
+        position: absolute;
+        bottom: 1;
+        #toque, #parte-do-show{
+            padding-top: 90%;
+            transform: translateX(-32%);
+        }
+    }
+
+
+    .meio {
+        display: flex;
+        flex-direction: column;
+        transform: translateX(-63%);
+        position: absolute;
+        bottom: 2;
+    }
+
+    .social-links {
+        display: flex;
+        padding-top: 260% ;
+        padding-left: 5%;
+        position: absolute;
+        bottom: 3;
+        justify-content: space-evenly;
+        transform: translateY(-60%);
+    }
+    
+    .media-links {
+        width: 15%;
+        transform: translateY(25%);
+        padding-left: 0%;
+        position: absolute;
+        bottom: 4;
     }
 }
 
@@ -19,37 +70,7 @@ html {
 
     .elemento-oculto {
         display: none;
-    }
-
-    .esquerda, .meio, .direita  {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-    }
-
-    .uma-div {
-        width: 50%;
-        position: absolute;
-        bottom: 0;
-        .social-links {
-            width: 110%;
-        }
-    }
-
-    .sobrepostos {
-        width: auto;
-        position: absolute;
-        bottom: 1;
-    }
-
-    .meio {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        bottom: 2;
-    }
-
-    
+    }   
 }
 
 @font-face {

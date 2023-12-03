@@ -13,7 +13,7 @@ html {
 
     .uma-div {
         width: 253%;
-        transform: translateY(-105%);
+        transform: translateY(-100%);
         position: absolute;
         bottom: 0;
         #logo-conexao-total {
@@ -24,7 +24,7 @@ html {
 
     .social-links {
         display: flex;
-        padding-top: 250% ;
+        padding-top: 260% ;
         padding-left: 5%;
         position: absolute;
         bottom: 1;
@@ -37,7 +37,7 @@ html {
 
     .media-links {
         width: 8%;
-        transform: translateY(-220%);
+        transform: translateY(-190%);
         padding-left: 0%;
         position: absolute;
         bottom: 0;
@@ -46,7 +46,7 @@ html {
     .iframevideo {
         width: 85%;
         height: 85%;
-        transform: translateY(100%);
+        transform: translateY(108%);
         position: absolute;
         bottom: 2;
     }
