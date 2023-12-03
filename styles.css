@@ -18,7 +18,8 @@ html {
         display: none;
     }
 
-    .esquerda, .meio, .direita  {
+    .esquerda, .direita  {
+        flex-direction: column;
         width: 50%;
     }
 
@@ -29,7 +30,7 @@ html {
 }
 
 @media (orientation: portrait) {
-    .esquerda, .meio, .direita {
+    .esquerda, .direita {
         width: 100%;
     }
 }

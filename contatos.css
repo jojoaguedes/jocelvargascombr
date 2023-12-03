@@ -21,6 +21,7 @@ html {
     }
 
     .uma-div {
+        width: 50%;
         position: absolute;
         bottom: 0;
     }
@@ -36,11 +37,7 @@ html {
         bottom: 2;
     }
 
-    .social-links {
-        width: 50%;
-        position: absolute;
-        bottom: 2;
-    }
+    
 }
 
 @media (orientation: portrait) {
