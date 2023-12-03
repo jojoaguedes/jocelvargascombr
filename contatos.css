@@ -53,6 +53,10 @@ html {
             position: absolute;
             bottom: 2;
         }
+
+        .media-links {
+            width: 10%;
+        }
     }
 }
 
