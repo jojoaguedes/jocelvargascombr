@@ -18,6 +18,21 @@ html {
     .esquerda, .meio, .direita  {
         width: 50%;
     }
+
+    .uma-div {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .sobrepostos {
+        position: absolute;
+        bottom: 1;
+    }
+
+    .meio {
+        position: absolute;
+        bottom: 2;
+    }
 }
 
 @media (orientation: portrait) {
