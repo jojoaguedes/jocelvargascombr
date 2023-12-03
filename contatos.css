@@ -15,48 +15,44 @@ html {
         width: 100%;
     }
 
-    .uma-div {
-        width: 100%;
-        transform: translateY(-250%);
-        position: absolute;
-        bottom: 0;
+    .esquerda {
+        .uma-div {
+            transform: translateY(-250%);
+           
+            position: absolute;
+            bottom: 0;
+        }
+
+        .social-links {
+            display: flex;
+            padding-top: 108%;
+            justify-content: space-evenly;
+            transform: translateX(-3%);
+            position: absolute;
+            bottom: 3;
+        }
     }
 
     .meio {
         display: flex;
         flex-direction: column;
-        transform: translateX(-63%);
+        transform: translateX(-60%);
         position: absolute;
         bottom: 1;
     }
 
     .direita {
+        width: 80%;
         display: flex;
-        padding-top: 90%;
+        padding-top: 100%;
+        justify-content: center;
+
         .sobrepostos {
             width: 200%;
-            transform: translateX(-46%);
-           
+            transform: translateX(-25%);
             position: absolute;
             bottom: 2;
         }
-    }
-
-    .social-links {
-        display: flex;
-        padding-top: 290%;
-        padding-left: 5%;
-        position: absolute;
-        bottom: 3;
-        justify-content: space-evenly;
-        transform: translateY(-60%);
-    }
-
-    .media-links {
-        transform: translateY(0%);
-        padding-left: 0%;
-        position: absolute;
-        bottom: 4;
     }
 }
 

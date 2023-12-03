@@ -44,7 +44,7 @@ html {
 
     .media-links {
         width: 8%;
-        transform: translateY(-280%);
+        transform: translateY(-180%);
         padding-left: 6%;
         position: absolute;
         bottom: 0;

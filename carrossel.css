@@ -6,6 +6,16 @@
     font-family: sans-serif;
   }
   
+  @media (orientation: portrait) {
+  
+    body  {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        transform: translateY(38%);
+    }
+  }
+
   body {
     background-color: transparent;
     display: flex;
