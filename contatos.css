@@ -5,6 +5,28 @@ html {
     min-height: 100%;
 }
 
+@media (max-width: 600px) {
+    font-size: 12px;
+
+    img {
+        width: 50%;
+    }
+
+    .elemento-oculto {
+        display: none;
+    }
+
+    coluna1 {
+        width: 100%;
+    }
+}
+
+@media (orientation: portrait) {
+    coluna1 {
+        width: 100%;
+    }
+}
+
 @font-face {
     font-family: fonte-principal;
     src: url(fonts/Squartiqa4FStrike.ttf);
