@@ -25,11 +25,18 @@ html {
     }
 
     .sobrepostos {
+        width: 100%;
         position: absolute;
         bottom: 1;
     }
 
     .meio {
+        position: absolute;
+        bottom: 2;
+    }
+
+    .social-links {
+        width: 50%;
         position: absolute;
         bottom: 2;
     }
