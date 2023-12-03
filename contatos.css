@@ -6,7 +6,6 @@ html {
 }
 
 @media (max-width: 600px) {
-    font-size: 12px;
 
     img {
         width: 50%;
@@ -16,13 +15,13 @@ html {
         display: none;
     }
 
-    coluna1 {
-        width: 100%;
+    .esquerda, .meio, .direita  {
+        width: 50%;
     }
 }
 
 @media (orientation: portrait) {
-    coluna1 {
+    .esquerda, .meio, .direita {
         width: 100%;
     }
 }
