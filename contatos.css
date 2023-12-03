@@ -24,10 +24,13 @@ html {
         width: 50%;
         position: absolute;
         bottom: 0;
+        .social-links {
+            width: 25%;
+        }
     }
 
     .sobrepostos {
-        width: 100%;
+        width: auto;
         position: absolute;
         bottom: 1;
     }
