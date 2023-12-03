@@ -194,6 +194,11 @@ button {
 }
 
 
+.image {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60%;
+}
 
 .media-links {
     display: flex;
@@ -202,7 +207,6 @@ button {
     margin-left: 22%;
     img {
         width: 90%;
-        padding-bottom: 100%;
     }
 }
 

@@ -183,6 +183,12 @@ button {
     }
 }
 
+.image {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60%;
+}
+
 #parte-do-show,
 #siga-nos {
     font-family: 'fonte-secundaria', monospace;
