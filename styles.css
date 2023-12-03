@@ -11,13 +11,20 @@ html {
         width: 100%;
     }
 
+    
+    .esquerda{
+       #bem-vindo {
+       margin-top: 10%;
+       }
+    }
+
     .uma-div {
         width: 253%;
         transform: translateY(-100%);
         position: absolute;
         bottom: 0;
         #logo-conexao-total {
-            margin-left: -9%;
+            margin-left: -0%;
             padding-bottom: 5%;
         }
     }
@@ -37,8 +44,8 @@ html {
 
     .media-links {
         width: 8%;
-        transform: translateY(-190%);
-        padding-left: 0%;
+        transform: translateY(-280%);
+        padding-left: 6%;
         position: absolute;
         bottom: 0;
     }
