@@ -423,7 +423,7 @@ html {
         .bora {
             display: flex;
             align-items: center;
-            margin: 32% 0% 2% 38%;
+            margin: 32% 0% 2% 0%;
             position: absolute;
             z-index: 5;
             #chamada {
