@@ -130,7 +130,7 @@ html {
         z-index: 5;
         display: flex;
         flex-direction: row;
-        margin: 90% 0% 0% 34%;
+        margin: 110% 0% 0% 34%;
         width: 35%;
         justify-content: space-evenly;
         img {
@@ -261,7 +261,7 @@ html {
         position: absolute;
         flex-direction: row;
         align-items: center;
-        margin: 97% 5% 5% 4%;
+        margin: 117% 5% 5% 4%;
         line-height: 8em;
     }
 
