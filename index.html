@@ -1,75 +1,120 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <base href="/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conexão TOTAL :: VOCÊ faz parte do show!</title>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11333304860"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11333304860"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'AW-11333304860');
-</script>
+        gtag('config', 'AW-11333304860');
+    </script>
     <!-- Meta Pixel Code -->
     <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '297888518913868');
-    fbq('track', 'PageView');
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '297888518913868');
+        fbq('track', 'PageView');
     </script>
     <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=297888518913868&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->     
+            src="https://www.facebook.com/tr?id=297888518913868&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
     <link rel='stylesheet' type='text/css' media='screen' href='./styles.css'>
     <link rel="stylesheet" href="reset.css">
     <script defer src='./script.js'></script>
 </head>
+
 <body>
-    <div class="pagina">
+    <!-- home -->
     <div class="home">
-        <div class="esquerda">
-            <p id="bem-vindo"><span>Seja bem-vindo(a) ao</span></p>
-            <div class="uma-div">
-                <img id="logo-conexao-total" src="images/logo_conexao_total_branco.png" alt="Conexão Total">
-                <p id="descricao">Um show único e inesquecível, repleto de interação onde o público e o artista se tornam um só. Nossa missão é proporcionar momentos inesquecíveis para todos que participam dessa experiência.</p>
+        <div class="topo">
+            <span id="bem-vindo">Seja bem-vindo(a) ao</span>
+
+            <div class="musica-inicio">
+                <img class="link spotifyLink space" src="images/spotify.png" alt="spotify">
+                <img class="link youtubeLink space" src="images/youtube.png" alt="youtube">
+                <img class="link appleLink space" src="images/apple.png" alt="apple">
+                <img class="link deezerLink space" src="images/deezer.png" alt="deezer">
             </div>
-            <div class="social-links">
-                <img class="link instagramLink" src="images/instagram.png" alt="instagram">
-                <img class="link whatsappLink" src="images/whats.png" alt="whatsapp">
-                <button class="link whatsappLink">Garanta já sua data</button>
+            <iframe class="video-pc" src="https://www.youtube.com/embed/G6Zmt4vgcNk"></iframe>
+            <div class="logo">
+                <img id="logo-inicio" src="images/logo_conexao_total_branco.png" alt="Conexão Total">
             </div>
+
+            <p id="descricao">Um show único e inesquecível, repleto de interação onde o público e o artista se tornam um
+                só. Nossa missão é proporcionar momentos inesquecíveis para todos que participam dessa experiência.</p>
         </div>
 
-        <div class="direita">
-                <iframe class="iframevideo" src="https://www.youtube.com/embed/G6Zmt4vgcNk"></iframe>
-                <div class="media-links">
-                    <img class="link spotifyLink image" src="images/spotify.png" alt="spotify">
-                    <img class="link youtubeLink image" src="images/youtube.png" alt="youtube">
-                    <img class="link appleLink image" src="images/apple.png" alt="apple">
-                    <img class="link deezerLink image" src="images/deezer.png" alt="deezer">
-                </div>  
+        <div class="sociais-inicio">
+            <img class="link instagramLink space-h" src="images/instagram.png" alt="instagram">
+            <img class="link whatsappLink space-h" src="images/whats.png" alt="whatsapp">
+            <button class="link whatsappLink space-h" id="garanta">Garanta já sua data</button>
         </div>
-    
-    </div>
-    </div>
-    <div class="pagina2">
-    <iframe src="/carrossel.html"  scrolling="no"; style="overflow: hidden; height: 100%; width: 100%; border: transparent;"></iframe>
-    </div>
 
-    <div class="pagina3">
-    <iframe src="/contatos.html" style="height: 100%; width: 100%; border: transparent;"></iframe>
     </div>
+    <!-- fim home -->
+
+    <!-- carrossel -->
+    <div class="carrossel">
+        <iframe src="/carrossel.html"  scrolling="no"; style="overflow: hidden; height: 100%; width: 100%; border: transparent;"></iframe>
+    </div>
+    <!-- fim carrossel -->
+
+    <!-- video -->
+        <iframe class="video" src="https://www.youtube.com/embed/G6Zmt4vgcNk"></iframe>
+    <!-- fim video -->
+
+
+    <!-- contatos -->
+    <div class="contatos">
+
+       <img id="logo-fim" src="images/logo_conexao_total_branco.png" alt="Conexão Total">
+        
+       <div class="sobrepostos">
+           <img class="link cifraClubLink" id="ej200" src="images/EJ200.gif" alt="Toque Minhas Músicas">
+           <span id="parte-do-show">Você faz parte do SHOW</span>
+           <span id="toque" class="link cifraClubLink">Toque Minhas Músicas</span>
+           <img id="quadro" src="images/cantos_quadro.png" alt="Jocel Vargas">
+           <img id="eu" src="images/jocel2.png" alt="Jocel Vargas">     
+       </div>   
+
+       <div class="musica-fim">
+           <img class="link spotifyLink space" src="images/spotify.png" alt="spotify">
+           <img class="link youtubeLink space" src="images/youtube.png" alt="youtube">
+           <img class="link appleLink space" src="images/apple.png" alt="apple">
+           <img class="link deezerLink space" src="images/deezer.png" alt="deezer">
+       </div>
+       
+       <div class="bora">
+        <p id="chamada">Vamos conversar hoje mesmo! <br> Venha sentir a energia do Conexão Total!</p>
+       </div> 
+
+       <div class="sociais-fim">
+           <span id="siga-nos">SIGA-NOS:</span>
+           <img class="link instagramLink space-h" src="images/instagram.png" alt="Instagram">
+           <img class="link faceLink space-h" src="images/face.png" alt="Facebook">
+           <img class="link whatsappLink space-h" src="images/whats.png" alt="Whatsapp">
+           <button class="link whatsappLink" id="garanta">Garanta já sua data</button>       
+       </div>
+      
+    </div>
+    <!-- fim contatos -->
 
 </body>
+
 </html>

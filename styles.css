@@ -1,281 +1,469 @@
-html {
-    height: 100%;
-    min-height: 100%;
-  }
-  
-  @media (orientation: portrait) {
-  
-    .esquerda, .direita  {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    
-    .esquerda{
-       #bem-vindo {
-       margin-top: 10%;
-       }
-    }
-
-    .uma-div {
-        width: 253%;
-        transform: translateY(-100%);
-        position: absolute;
-        bottom: 0;
-        #logo-conexao-total {
-            margin-left: -0%;
-            padding-bottom: 5%;
-        }
-    }
-
-    .social-links {
-        display: flex;
-        padding-top: 260% ;
-        padding-left: 5%;
-        position: absolute;
-        bottom: 1;
-        justify-content: space-evenly;
-    }
-    
-    .instagramLink {
-        margin-right: 10%;
-    }
-
-    .media-links {
-        width: 8%;
-        transform: translateY(-180%);
-        padding-left: 6%;
-        position: absolute;
-        bottom: 0;
-    }
-
-    .iframevideo {
-        width: 85%;
-        height: 85%;
-        transform: translateY(108%);
-        position: absolute;
-        bottom: 2;
-    }
-
-   
-}
-  @media (max-width: 600px) {
-    img {
-        width: 100%;
-    }
-
-    .elemento-oculto {
-        display: none;
-    }
-  }
-
-  body {
-    font-family: sans-serif;
-  }
-  
-  h1 {
-    font-size: 2em;
-  }
-  
-  p {
-    font-size: 1em;
-  }
-  
-  @media screen and (max-width: 768px) {
-    body {
-      font-size: 1.5em;
-    }
-  
-    h1 {
-      font-size: 1.5em;
-    }
-  
-    p {
-      font-size: 1em;
-    }
-  }
-
-@media screen and (max-width: 768px) {
-    .container {
-      text-align: center;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .element {
-      display: flex;
-    }
-}
-  
-
-@font-face {
-    font-family: fonte-principal;
-    src: url(fonts/Squartiqa4FStrike.ttf);
-}
-
-@font-face {
-    font-family: fonte-secundaria;
-    src: url(fonts/OpenSans-VariableFont_wdth,wght.ttf);
-}
-
-
 body {
-    background-image: url(images/background2.png);
-    padding: 0 10%;
-    display: grid;
-    grid-area: coluna;
-    justify-content: center;
+    background-image: url(images/background.png);
+    padding: 0% 10%;
     background-size: cover;
 }
 
-
-.pagina {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
+.fundo-fim {
+    background-image: url(images/fundoFim.png);
+    background-size: cover;
 }
 
-.pagina2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 0%;
-    margin-left: 15%;
-    width: 70%;
-    height: 100vh;
-}
-
-.pagina3 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 108vh;
-}
-
-.home, .pagina {
-    width: 100%;
-    height: 100vh;
-}
-
-p {
+p,
+span {
     color: white;
-}
-
-.iframevideo {
-    aspect-ratio: 9/16;
-    margin-top: 5%;
-    margin-left: -45%;
-    height: 93%;
-  }
-
-button {
-    margin-left: 10%;
-    background-color: rgb(50, 64, 71);
-    border-color: rgb(253, 236, 11);
-    border-width: 3px;
-    font-family: fonte-principal;
-    line-height: 1.3em;
-    color: white;
-    transform: translateY(-1%);
 }
 
 .link {
     cursor: pointer;
 }
 
-.esquerda {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-left: 5%;
+.space {
+    margin-bottom: 65%;
 }
 
-.uma-div {
-    display: 100%;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    margin-top: 1%;
-    #logo-conexao-total {
-        width: 45%; 
-        transform: translateX(35%);
-    }
+.space-h {
+    margin-right: 5%;
 }
 
-.social-links {
-    display: flex;
-    margin-top: 6%;
-    margin-left: 10%;
-    width: 60%;
-    justify-content: space-evenly;
-    transform: translateY(-50%);
-    img {
-        width: 8%;
-    }
+#garanta {
+    padding: 0% 4% 0% 4%;
+    white-space: nowrap;
 }
 
-.home,
-.direita {
-    display: flex;
-    flex-direction: row;
-}
-
-.home {
-    justify-content: center;
+button {
+    font-family: fonte-geral;
+    background-color: rgb(50, 64, 71);
+    border-color: rgb(253, 236, 11);
+    color: white;
+    margin-left: 3%;
+    border-width: 3px;
+    font-weight: 750;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    transform: translateY(-1%);
 }
 
 #bem-vindo {
-        direction:ltr;
-        font-family: 'fonte-principal', monospace;
-        margin-left:0em;
-        line-height:0.86390503em;
-        text-transform:none;
-        letter-spacing:-0.05em;
-        margin-top: 1.6%;
+    font-family: fonte-titulos;
+    letter-spacing: 0.08em;
 }
 
-#descricao {
-    font-family: 'fonte-secundaria', monospace;
-    line-height: 1.26087505em;
+#descricao,
+#chamada {
+    font-family: fonte-geral;
+    line-height: 1.26em;
     text-align: justify;
-    font-weight: 500;
+    font-weight: normal;
     letter-spacing: -0.05em;
-    text-shadow: 0.04408389em 0.06067627em 0.0125em rgba(0, 0, 0, 0.300000);
+    text-shadow: 0.044em 0.06em 0.0125em rgba(0, 0, 0, 0.300000);
+}
+
+@import "main";
+
+html {
+    height: 100%;
+    min-height: 100%;
 }
 
 
-#descricao {
-    width: 67%;
-    margin-top: 1%;
-    margin-left: 4%;  
+@font-face {
+    font-family: fonte-titulos;
+    src: url(fonts/Squartiqa4FStrike.ttf);
 }
 
-
-.image {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 60%;
+@font-face {
+    font-family: fonte-economica;
+    src: url(fonts/Economica-Regular.ttf);
 }
 
-.media-links {
-    display: flex;
-    flex-direction: column;
-    margin-top: 6%;
-    margin-left: 22%;
-    img {
-        width: 90%;
+@font-face {
+    font-family: fonte-geral;
+    src: url(fonts/OpenSans-VariableFont_wdth,wght.ttf);
+}
+
+/* inicio home retrato */
+@media (max-width: 640px) {
+
+}
+@media (orientation: portrait) { /* para formato retrato */
+
+    .home {
+        margin: 1%;
+        width: fit-content;
+        display: flex;
+    }
+
+
+    #logo-inicio {
+        width: 80%;
+    }
+
+    .logo {
+        margin: 5% 0% 5% 8%;
+        position: relative;
+    }
+
+    #descricao {
+        width: 85%;
+        font-weight: 300;
+        font-size: 120%;
+        margin: 0% 0% 5% 8%;
+    }
+
+    .musica-inicio {
+        display: flex;
+        flex-direction: column;
+        margin: 10% 0% 0% 83%;
+        width: 8.5%;
+        position: absolute;
+        z-index: 0;
+    }
+
+    .sociais-inicio {
+        display: flex;
+        flex-direction: row;
+        margin: 5% 0% 0% 5%;
+    }
+    .sociais-inicio {
+        position: absolute;
+        z-index: 5;
+        display: flex;
+        flex-direction: row;
+        margin: 90% 0% 0% 34%;
+        width: 35%;
+        justify-content: space-evenly;
+        img {
+            width: 15%;
+        }
+    }
+
+    .video-pc {
+        display: none;
+        width: 0%;
+    }
+
+    .video {
+        aspect-ratio: 9/16;
+        margin: -107.25% 0% 0% 2.5%;
+        width: 95%;
+        height: 95%;
+    }
+
+    /* inicio carrossel retrato */
+    .carrossel {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 13% 0% 10% 2.5%;
+        width: 95%;
+        height: 100vh;
+    }
+
+    /* inicio contatos retrato */
+
+    .contatos {
+        display: flex;
+        margin-top: 10%;
+    }
+
+    #logo-fim {
+        display:none;
+        width: 0%;
+    }
+
+    .musica-fim {
+        display: flex;
+        flex-direction: column;
+        width: 8.5%;
+        margin: 5% 0% 0% 79.7%;
+        position: absolute;
+        z-index: 5;
+    }
+
+    .sobrepostos {
+        display: flex;
+        position: relative;
+        width: 88%;
+        margin: 0% 0% 0% 0%;
+        
+        #eu {
+            position: absolute;
+            margin-left: -2%;
+            z-index: 0;
+            width: 100%;
+        }
+
+        #quadro {
+            width:76%;
+            margin: -6% 0% 0% 20%;
+            position: absolute;
+            z-index: 1;
+        }
+
+        #parte-do-show {
+            position: absolute;
+            z-index: 2;
+            line-height: 1.261em;
+            font-family: 'fonte-economica', monospace;
+            text-align: center;
+            margin-left: 40%;
+            margin-top: 60.5%;
+            font-weight: 300;
+            font-size: 140%;
+            letter-spacing: 0.05em;
+            text-shadow: 0.0441em 0.0606em 0.0125em rgba(0, 0, 0, 0.300000);
+        }
+
+        #toque {
+            position: absolute;
+            z-index: 3;
+            font-size: 118%;
+            direction: ltr;
+            font-family: 'fonte-geral', monospace;
+            text-align: center;
+            margin-left: 40%;
+            margin-top: 80%;
+            line-height: 100%;
+            text-transform: none;
+            letter-spacing: -0.05em;
+        }
+
+        #ej200 {
+            position: absolute;
+            z-index: 4;
+            width: 20%;
+            margin-left: 30%;
+            padding: 72% 0% 0% 3%;
+            transform: rotate(-25deg);
+        }
+    }
+
+    .bora {
+        display: flex;
+        position: absolute;
+        margin: 87% 0% 0% 15%;
+        #chamada {
+            direction: ltr;
+            font-family: 'fonte-geral', monospace;
+            text-align: center;
+            line-height: 1.3em;
+            text-transform: none;
+            letter-spacing: 0.02em;
+            font-weight: 350;
+            font-size: 160%;
+        }
+    }
+
+    .sociais-fim {
+        width: 30%;
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+        align-items: center;
+        margin: 97% 5% 5% 4%;
+        line-height: 8em;
+    }
+
+    #siga-nos {
+        margin-right: 5%;
+        font-family: 'fonte-geral', monospace;
+        text-transform: none;
+        flex: 1;
+        flex-grow: 1;
+        flex-shrink: 0;
+        white-space: nowrap;
     }
 }
 
+@media (orientation: landscape){ /* para formato paisagem */
 
+    /* inicio home paisagem */
+    .home {
+        width: fit-content;
+        display: flex;
+        margin: 1%;
+    }
+    
+    #bem-vindo {
+        margin: 0% 0% 0% 7%; 
+    }
 
+    #logo-inicio {
+        width: 35%;
+    }
+    
+    .logo {
+        margin: 1% 0% 0% 16%;
+        position: relative;
+    }
+    
+    #descricao {
+        width: 46%;
+        font-weight: 500;
+        font-size: 118%;
+        margin: 1% 0% 3% 7%;
+    }
+
+    .sociais-inicio {
+        position: absolute;
+        z-index: 5;
+        display: flex;
+        flex-direction: row;
+        margin: 36.5% 0% 0% 13%;
+        width: 35%;
+        justify-content: space-evenly;
+        img {
+            width: 15%;
+        }
+    }
+    
+    .video {
+        display: none;
+    }
+    
+    .video-pc {
+        aspect-ratio: 9/16;
+        margin: 0% 0% 0% 33.5%;
+        height: 93%;
+        position: absolute;
+    }
+    
+    .musica-inicio {
+        display: flex;
+        flex-direction: column;
+        margin: -1.1% 0% 0% 86%;
+        width: 3.5%;
+        position: absolute;
+        z-index: 0;
+    }
+    
+    
+    /* inicio carrossel paisagem */
+    .carrossel {
+        display: flex;
+        margin: 30% 0% 0% 0%;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    /* inicio contatos paisagem */
+    .contatos {
+        margin-top: 5%;
+    
+        #logo-fim {
+            width: 33%;
+            margin: 1% 0% 0% 12%;
+            position: absolute;
+            z-index: 6;
+        }
+    
+        .musica-fim {
+            display: flex;
+            flex-direction: column;
+            width: 3.6%;
+            margin: 3% 0% 0% 88.7%;
+            position: absolute;
+            z-index: 5;
+        }
+    
+        .sobrepostos {
+            width: 45%;
+            display: flex;
+            position: relative;
+            margin: 15% 0% 0% 50%;
+    
+            #eu {
+                position: absolute;
+                margin-left: -6%;
+                z-index: 0;
+                width: 100%;
+            }
+    
+            #quadro {
+                width: 76%;
+                padding: 0% 0% 0% 15%;
+                margin-top: -5%;
+                position: absolute;
+                z-index: 1;
+            }
+    
+            #parte-do-show {
+                position: absolute;
+                z-index: 2;
+                line-height: 1.261em;
+                font-family: 'fonte-economica', monospace;
+                text-align: center;
+                margin-left: 40%;
+                margin-top: 60.5%;
+                font-weight: 300;
+                font-size: 120%;
+                letter-spacing: 0.05em;
+                text-shadow: 0.0441em 0.0606em 0.0125em rgba(0, 0, 0, 0.300000);
+            }
+    
+            #toque {
+                position: absolute;
+                z-index: 3;
+                font-size: 106%;
+                direction: ltr;
+                font-family: 'fonte-geral', monospace;
+                text-align: center;
+                margin: 81% 0% 0% 39%;
+                line-height: 100%;
+                text-transform: none;
+                letter-spacing: -0.05em;
+            }
+    
+            #ej200 {
+                position: absolute;
+                z-index: 4;
+                width: 21%;
+                margin-left: 29%;
+                padding: 70% 0% 0% 0%;
+                transform: rotate(-25deg);
+            }
+        }
+    
+        .bora {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 30.5% 0% 2% -8%;
+    
+            #chamada {
+                direction: ltr;
+                font-family: 'fonte-geral', monospace;
+                text-align: center;
+                line-height: 1.3em;
+                text-transform: none;
+                letter-spacing: -0.05em;
+                font-weight: 500;
+                font-size: 102%;
+            }
+        }
+    
+        .sociais-fim {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin: 0% 0% 0% 12%;
+            width: 40%;
+            min-height: 39%;
+    
+            img {
+                width: 15%;
+            }
+        }
+    
+        #siga-nos {
+            margin-right: 5%;
+            font-family: 'fonte-geral', monospace;
+            text-transform: none;
+            flex: 1;
+            flex-grow: 1;
+            flex-shrink: 0;
+            white-space: nowrap;
+        }
+    }
+}
