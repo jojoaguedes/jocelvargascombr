@@ -30,12 +30,9 @@ span {
     margin-right: 5%;
 }
 
-#garanta {
-    padding: 0% 4% 0% 4%;
-    white-space: nowrap;
-}
-
 button {
+    padding: 5% 5% 5% 5%;
+    white-space: nowrap;
     font-family: fonte-geral;
     background-color: rgb(50, 64, 71);
     border-color: rgb(253, 236, 11);
@@ -125,17 +122,12 @@ html {
     }
 
     .sociais-inicio {
-        display: flex;
-        flex-direction: row;
-        margin: 5% 0% 0% 5%;
-    }
-    .sociais-inicio {
         position: absolute;
         z-index: 5;
         display: flex;
         flex-direction: row;
-        margin: 112% 0% 0% 22%;
-        width: auto;
+        margin: 112% 0% 0% 17%;
+        height: 10%;
         justify-content: space-evenly;
     }
 
@@ -328,7 +320,7 @@ html {
     
     .video-pc {
         aspect-ratio: 9/16;
-        margin: 0% 0% 0% 33.5%;
+        margin: 0% 0% 0% 32%;
         height: 93%;
         position: absolute;
     }
@@ -386,8 +378,7 @@ html {
     
             #quadro {
                 width: 76%;
-                padding: 0% 0% 0% 15%;
-                margin-top: -5%;
+                margin: -5% 0% 0% 15%;
                 position: absolute;
                 z-index: 1;
             }
@@ -451,9 +442,9 @@ html {
             display: flex;
             flex-direction: row;
             align-items: center;
-            margin: 30% 0% 0% 12%;
-            width: 12%;
-            min-height: 39%;
+            margin: 36% 0% 0% 9.7%;
+            width: auto;
+            max-width: 20%;
             position: absolute;
             z-index: 6; 
         }
