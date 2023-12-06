@@ -130,12 +130,9 @@ html {
         z-index: 5;
         display: flex;
         flex-direction: row;
-        margin: 110% 0% 0% 34%;
-        width: 35%;
+        margin: 112% 0% 0% 35%;
+        width: 30%;
         justify-content: space-evenly;
-        img {
-            width: 15%;
-        }
     }
 
     .video-pc {
@@ -207,8 +204,7 @@ html {
             line-height: 1.261em;
             font-family: 'fonte-economica', monospace;
             text-align: center;
-            margin-left: 40%;
-            margin-top: 60.5%;
+            margin: 60.5% 0% 0% 35%;
             font-weight: 300;
             font-size: 140%;
             letter-spacing: 0.05em;
