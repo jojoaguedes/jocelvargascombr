@@ -89,6 +89,7 @@ html {
 @media (orientation: portrait) { /* para formato retrato */
 
     .home {
+        width: auto;
         margin: 1%;
         width: fit-content;
         display: flex;
