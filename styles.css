@@ -131,7 +131,7 @@ html {
         display: flex;
         flex-direction: row;
         margin: 112% 0% 0% 36%;
-        width: 30%;
+        width: 25%;
         justify-content: space-evenly;
     }
 
@@ -206,7 +206,7 @@ html {
             text-align: center;
             margin: 60.5% 0% 0% 35%;
             font-weight: 300;
-            font-size: 120%;
+            font-size: 100%;
             letter-spacing: 0.05em;
             text-shadow: 0.0441em 0.0606em 0.0125em rgba(0, 0, 0, 0.300000);
         }
@@ -214,11 +214,11 @@ html {
         #toque {
             position: absolute;
             z-index: 3;
-            font-size: 100%;
+            font-size: 80%;
             direction: ltr;
             font-family: 'fonte-geral', monospace;
             text-align: center;
-            margin-left: 40%;
+            margin-left: 36%;
             margin-top: 80%;
             line-height: 100%;
             text-transform: none;
@@ -230,7 +230,7 @@ html {
             z-index: 4;
             width: 20%;
             margin-left: 30%;
-            margin: 68% 0% 0% 43%;
+            margin: 68% 0% 0% 48%;
             transform: rotate(-25deg);
         }
     }
@@ -247,7 +247,7 @@ html {
             text-transform: none;
             letter-spacing: 0.02em;
             font-weight: 350;
-            font-size: 160%;
+            font-size: 150%;
         }
     }
 
@@ -257,7 +257,7 @@ html {
         position: absolute;
         flex-direction: row;
         align-items: center;
-        margin: 117% 5% 5% 4%;
+        margin: 116% 5% 5% 3%;
         line-height: 8em;
     }
 
