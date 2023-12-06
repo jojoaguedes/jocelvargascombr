@@ -235,8 +235,7 @@ html {
         display: flex;
         position: absolute;
         width: 100%;
-        margin: 87% 0% 0% 15%;
-        padding-right: -15%;
+        margin: 87% 0% 0% 5%;
         z-index: 5;
         #chamada {
             direction: ltr;
@@ -423,7 +422,7 @@ html {
         .bora {
             display: flex;
             align-items: center;
-            margin: 32% 0% 2% 0%;
+            margin: 32% 0% 2% 38%;
             position: absolute;
             z-index: 5;
             #chamada {
@@ -434,7 +433,7 @@ html {
                 text-transform: none;
                 letter-spacing: -0.05em;
                 font-weight: 500;
-                font-size: 100%;
+                font-size: 102%;
             }
         }
     
