@@ -185,7 +185,7 @@ html {
         flex-wrap: wrap;
         margin: 33% 0% 10% 2.5%;
         width: 95%;
-        height: 120vh;
+        height: 132vh;
     }
 
     /* inicio contatos retrato */
@@ -395,9 +395,9 @@ html {
     /* inicio carrossel paisagem */
     .carrossel {
         display: flex;
-        margin: 22.5% 0% 0% 0%;
+        margin: 20.15% 0% 0% 0%;
         width: 100%;
-        height: 120vh;
+        height: 132vh;
     }
 
     /* inicio contatos paisagem */
@@ -599,7 +599,7 @@ html {
         display: flex;
         margin: 13% 0% 0% 0.8%;
         width: 97%;
-        height: 120vh;
+        height: 132vh;
     }
 
     /* inicio contatos tablet paisagem */
