@@ -68,13 +68,16 @@ var swiper = new Swiper(".swiper", {
     keyboard: true,
   });  
 
-// Obtenha a largura e a altura da tela do dispositivo
-const largura = window.innerWidth;
-const altura = window.innerHeight;
-
-// Verifique se a largura e a altura da tela correspondem às especificações definidas na media query
-if (largura >= 768 && largura <= 1280 && altura >= 800 && altura <= 1280) {
-  // Altere a resolução da página para a resolução ideal
-  document.body.style.width = 1280;
-  document.body.style.height = 800;
-}
+  window.addEventListener("orientationchange", function() {
+    // Verifique o tamanho da tela do dispositivo
+    const largura = window.innerWidth;
+    const altura = window.innerHeight;
+  
+    // Se o tamanho da tela do dispositivo corresponder às especificações da primeira media query, aplique as regras CSS definidas nessa media query
+    if (largura >= 768 && largura <= 1024 && altura >= 1024 && altura <= 1280) {
+      document.body.style.cssText = "@media (min-width: 768px) and (orientation: landscape) { ... }";
+    } else {
+      // Caso contrário, aplique as regras CSS definidas na segunda media query
+      document.body.style.cssText = "@media (min-width: 1024px) and (orientation: landscape) { ... }";
+    }
+  });

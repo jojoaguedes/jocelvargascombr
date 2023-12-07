@@ -100,9 +100,7 @@ html {
     src: url(fonts/OpenSans-VariableFont_wdth,wght.ttf);
 }
 
-@media (max-width: 640px) {}
-
-@media (orientation: portrait) {
+ @media (max-width: 640px) and (orientation: portrait) {
     /* para formato retrato */
 
 
@@ -311,7 +309,7 @@ html {
 
 }
 
-@media (orientation: landscape) {
+@media (min-width: 1024px) and (orientation: landscape) {
     /* para formato paisagem */
 
     body {
