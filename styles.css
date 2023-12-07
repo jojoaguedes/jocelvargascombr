@@ -156,8 +156,8 @@ html {
         z-index: 5;
         display: flex;
         flex-direction: row;
-        margin: 123.5% 0% 0% 47.5%;
-        max-width: 10%;
+        margin: 123.5% 0% 0% 40%;
+        max-width: 18%;
         justify-content: space-evenly;
     }
 
@@ -286,7 +286,7 @@ html {
 
     .sociais-fim {
         display: flex;
-        max-width: 25%;
+        max-width: 18%;
         align-items: center;
         margin: 101.5% 0% 0% 2%;
         padding-bottom: 3%;
