@@ -271,7 +271,7 @@ html {
 
     .sociais-fim {
         display: flex;
-        max-width: 50%;
+        max-width: 40%;
         align-items: center;
         margin: 104% 0% 0% 10%; 
         padding-bottom: 3%;       
@@ -281,7 +281,7 @@ html {
 
     .button-fim {
         margin: 125% 0% 0% 24.7%; 
-        padding: 3%;
+        padding: 5%;
         position: absolute;
         z-index: 11;
     }
