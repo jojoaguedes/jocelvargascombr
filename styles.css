@@ -326,7 +326,8 @@ html {
     }
 
     #logo-inicio {
-        max-width: 89%;
+        max-width: 69%;
+        -moz-box-sizing: 89%;
     }
 
     .logo {
