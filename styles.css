@@ -559,7 +559,7 @@ html {
     .video-pc {
         aspect-ratio: 9/16;
         margin: 2% 0% 0% 21.5%;
-        height: 118%;
+        height: 119%;
         position: absolute;
     }
 
@@ -576,7 +576,7 @@ html {
     /* inicio carrossel tablet paisagem */
     .carrossel {
         display: flex;
-        margin: 11% 0% 0% 0.8%;
+        margin: 13% 0% 0% 0.8%;
         width: 97%;
         height: 100vh;
     }
@@ -675,7 +675,7 @@ html {
         }
 
        #garanta{
-        margin: 38% 0% 0% 30%;
+        margin: 39% 0% 0% 30%;
        }
 
         .sociais-fim {
@@ -683,7 +683,7 @@ html {
             flex-direction: column;
             max-width: 3%;
             align-items: center;
-            margin: -4% 0% 0% 45.5%;
+            margin: -4% 0% 0% 45%;
             position: absolute;
             z-index: 6;
         }
