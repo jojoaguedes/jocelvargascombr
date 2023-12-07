@@ -579,7 +579,7 @@ html {
     .carrossel {
         display: flex;
         margin: 30% 0% 0% 0.8%;
-        width: 70%;
+        width: 50%;
         height: 100vh;
     }
 
