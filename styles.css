@@ -254,7 +254,7 @@ html {
         display: flex;
         position: absolute;
         width: 100%;
-        margin: 87% 0% 0% 10%;
+        margin: 87% 0% 0% 8%;
         z-index: 5;
 
         #chamada {
@@ -271,9 +271,9 @@ html {
 
     .sociais-fim {
         display: flex;
-        max-width: 40%;
+        max-width: 35%;
         align-items: center;
-        margin: 104% 0% 0% 10%; 
+        margin: 102% 0% 0% 8%; 
         padding-bottom: 3%;       
         position: absolute;
         z-index: 6;
