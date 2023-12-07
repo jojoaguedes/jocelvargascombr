@@ -558,7 +558,7 @@ html {
 
     .video-pc {
         aspect-ratio: 9/16;
-        margin: 2% 0% 0% 21.5%;
+        margin: 2.2% 0% 0% 21.5%;
         height: 123.7%;
         position: absolute;
     }
@@ -603,7 +603,7 @@ html {
             width: 47%;
             display: flex;
             position: relative;
-            margin: 15% 0% 0% 52%;
+            margin: 5% 0% 0% 52%;
 
             #eu {
                 position: absolute;
