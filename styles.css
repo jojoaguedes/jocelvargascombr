@@ -125,7 +125,7 @@ html {
         width: 87%;
         font-weight: 300;
         font-size: 120%;
-        margin: 0% 0% 5% 7%;
+        margin: 10% 0% 5% 7%;
     }
 
     .space {
@@ -275,7 +275,7 @@ html {
             text-transform: none;
             letter-spacing: 0.02em;
             font-weight: 350;
-            font-size: 116%;
+            font-size: 115%;
             white-space: nowrap;
         }
     }
