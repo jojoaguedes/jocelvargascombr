@@ -151,7 +151,7 @@ html {
         z-index: 5;
         display: flex;
         flex-direction: row;
-        margin: 103.5% 0% 0% 47.5%;
+        margin: 123.5% 0% 0% 47.5%;
         max-width: 3%;
         justify-content: space-evenly;
     }
@@ -168,7 +168,7 @@ html {
 
     .video {
         aspect-ratio: 9/16;
-        margin: -107.25% 0% 0% 2.5%;
+        margin: -87.25% 0% 0% 2.5%;
         width: 95%;
         height: 95%;
     }
@@ -178,7 +178,7 @@ html {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        margin: 13% 0% 10% 2.5%;
+        margin: 33% 0% 10% 2.5%;
         width: 95%;
         height: 100vh;
     }
@@ -282,6 +282,7 @@ html {
     .sociais-fim {
         display: flex;
         max-width: 10%;
+        -moz-max-width: 50%;
         align-items: center;
         margin: 101.5% 0% 0% 2%; 
         padding-bottom: 3%;       
