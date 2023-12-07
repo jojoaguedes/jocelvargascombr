@@ -253,31 +253,26 @@ html {
     }
 
     .sociais-fim {
-        width: 640px;
+        width: auto;
         display: flex;
         position: absolute;
         align-items: center;
-        justify-content: center;
+        justify-items: center;
         margin: 116% 5% 5% 0%;
-        max-width: 5%;
+        max-width: 10%;
         line-height: 8em;
         z-index: 6;
-
-        #img {
-            width: 2%;
-        }
-
-        #siga-nos {
-            margin-right: 5%;
-            font-family: 'fonte-geral', monospace;
-            text-transform: none;
-            flex: 1;
-            flex-grow: 1;
-            flex-shrink: 0;
-            white-space: nowrap;
-        }
     }
 
+    #siga-nos {
+        margin-right: 5%;
+        font-family: 'fonte-geral', monospace;
+        text-transform: none;
+        flex: 1;
+        flex-grow: 1;
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
 
 }
 
@@ -465,5 +460,11 @@ html {
             flex-shrink: 0;
             white-space: nowrap;
         }
+    }
+}
+
+.sociais-fim {
+    img{
+        width: 100%;
     }
 }
