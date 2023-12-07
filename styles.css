@@ -1,7 +1,8 @@
 body {
-    background-image: url(images/background.png);
+    /*background-image: url(images/background.png);*/
     padding: 0% 0%;
     background-size: cover;
+    background-color: blueviolet;
 }
 
 .fundo-fim {
