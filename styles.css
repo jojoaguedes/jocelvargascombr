@@ -624,7 +624,7 @@ html {
             width: 47%;
             display: flex;
             position: relative;
-            margin: 5% 0% 0% 52%;
+            margin: 2% 0% 0% 52%;
 
             #eu {
                 position: absolute;
@@ -700,7 +700,7 @@ html {
         }
 
         #space {
-            padding-bottom: 3%;
+            padding-bottom: 30%;
         }
 
         .sociais-fim {
@@ -708,13 +708,14 @@ html {
             flex-direction: column;
             max-width: 3%;
             align-items: center;
-            margin: -4% 0% 0% 44.5%;
+            margin: 3% 0% 0% 44.5%;
             position: absolute;
             z-index: 6;
         }
 
         #siga-nos {
             margin-right: 5%;
+            padding: 25%;
             font-family: 'fonte-geral', monospace;
             text-transform: none;
             flex: 1;
