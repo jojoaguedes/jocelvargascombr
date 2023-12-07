@@ -130,7 +130,7 @@ html {
         width: 87%;
         font-weight: 300;
         font-size: 120%;
-        margin: 10% 0% 5% 7%;
+        margin: 18% 0% 5% 7%;
     }
 
     .space {
@@ -157,13 +157,12 @@ html {
         display: flex;
         flex-direction: row;
         margin: 123.5% 0% 0% 47.5%;
-        max-width: 3%;
+        max-width: 20%;
         justify-content: space-evenly;
     }
 
     .button-inicio {
         margin: 0.7% 0% 0.7% 0%;
-        padding: 5%;
     }
 
     .video-pc {
@@ -173,7 +172,7 @@ html {
 
     .video {
         aspect-ratio: 9/16;
-        margin: -87.25% 0% 0% 2.5%;
+        margin: -127.25% 0% 0% 2.5%;
         width: 95%;
         height: 95%;
     }
@@ -597,7 +596,7 @@ html {
     /* inicio carrossel tablet paisagem */
     .carrossel {
         display: flex;
-        margin: 11.5% 0% 0% 0.8%;
+        margin: 12% 0% 0% 0.8%;
         width: 97%;
         height: 132vh;
     }
