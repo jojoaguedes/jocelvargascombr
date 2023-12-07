@@ -9,7 +9,7 @@ const Links = {
     urlCifraClub: "https://www.cifraclub.com.br/jocel-vargas/"
 }
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const links = document.getElementsByClassName('link');
 
     function navegarLinkEmNovaAba(url) {
@@ -59,25 +59,30 @@ var swiper = new Swiper(".swiper", {
     cssMode: true,
     loop: true,
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     },
     pagination: {
-      el: ".swiper-pagination",
+        el: ".swiper-pagination",
     },
     keyboard: true,
-  });  
+});
 
-  window.addEventListener("orientationchange", function() {
+window.addEventListener("orientationchange", function () {
     // Verifique o tamanho da tela do dispositivo
     const largura = window.innerWidth;
     const altura = window.innerHeight;
-  
+
     // Se o tamanho da tela do dispositivo corresponder às especificações da primeira media query, aplique as regras CSS definidas nessa media query
     if (largura >= 768 && largura <= 1024 && altura >= 1024 && altura <= 1280) {
-      document.body.style.cssText = "@media (min-width: 768px) and (orientation: landscape) { ... }";
+        document.body.style.cssText = "@media (min-width: 768px) and (max-width:1024px) and (orientation: landscape) { ... }";
     } else {
-      // Caso contrário, aplique as regras CSS definidas na segunda media query
-      document.body.style.cssText = "@media (min-width: 1024px) and (orientation: landscape) { ... }";
+        // Aplique as regras CSS definidas na segunda media query
+        document.body.style.cssText = "@media (min-width: 1024px) and (orientation: landscape) { ... }";
+    } else {
+        if (largura >= 481 && largura <= 768 && altura >= 768 && altura <= 1024) {
+            // Caso contrário, aplique as regras CSS definidas na terceira media query
+            document.body.style.cssText = "@media (min-width:481px) and (max-width:768px) { ... }";
+        }
     }
-  });
+});
