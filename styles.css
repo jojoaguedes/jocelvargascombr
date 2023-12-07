@@ -9,6 +9,15 @@ body {
     background-size: cover;
 }
 
+div {
+    max-width: webkit-min-content;
+    max-width: -moz-min-content;
+}
+
+img {
+    max-width: 100%;
+}
+
 h1 {
     display: none;
 }
