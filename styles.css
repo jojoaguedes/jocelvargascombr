@@ -275,7 +275,8 @@ html {
             text-transform: none;
             letter-spacing: 0.02em;
             font-weight: 350;
-            font-size: 117%;
+            font-size: 116%;
+            white-space: nowrap;
         }
     }
 
