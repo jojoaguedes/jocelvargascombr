@@ -12,6 +12,9 @@ body {
 div {
     max-width: webkit-min-content;
     max-width: -moz-min-content;
+    max-width: -o-min-content;
+    max-width: -ms-min-content;
+    max-width: 100%;
 }
 
 img {
@@ -59,19 +62,6 @@ button {
 
 .logo {
     width: 42%;
-}
-
-.sociais-inicio {
-    img {
-        width: 100%;
-        height: 100%;
-    }
-}
-
-.sociais-fim {
-    img {
-        width: 20%;
-    }
 }
 
 #bem-vindo {
@@ -352,7 +342,6 @@ html {
     }
 
     .sociais-inicio {
-        width: 32%;
         position: absolute;
         z-index: 5;
         display: flex;
