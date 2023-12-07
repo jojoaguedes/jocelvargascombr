@@ -678,6 +678,10 @@ html {
         margin: 40% 0% 0% 30%;
        }
 
+       #space {
+margin-bottom: 3%;
+       }
+
         .sociais-fim {
             display: flex;
             flex-direction: column;
