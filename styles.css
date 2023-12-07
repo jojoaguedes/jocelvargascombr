@@ -576,7 +576,7 @@ html {
     /* inicio carrossel tablet paisagem */
     .carrossel {
         display: flex;
-        margin: 20% 0% 0% 0.8%;
+        margin: 10% 0% 0% 0.8%;
         width: 92%;
         height: 100vh;
     }
@@ -600,10 +600,10 @@ html {
         }
 
         .sobrepostos {
-            width: 40%;
+            width: 45%;
             display: flex;
             position: relative;
-            margin: 15% 0% 0% 48.5%;
+            margin: 15% 0% 0% 50%;
 
             #eu {
                 position: absolute;
@@ -658,7 +658,7 @@ html {
         .bora {
             display: flex;
             align-items: center;
-            margin: 28% 0% 2% 24.6%;
+            margin: 32% 0% 2% 27.6%;
             position: absolute;
             z-index: 5;
 
@@ -675,7 +675,7 @@ html {
         }
 
        #garanta{
-        margin: 38% 0% 0% 27%;
+        margin: 38% 0% 0% 30%;
        }
 
         .sociais-fim {
