@@ -142,6 +142,7 @@ html {
         display: flex;
         flex-direction: row;
         margin: 100% 0% 0% 10%;
+        max-width: 10%;
         justify-content: space-evenly;
     }
 
@@ -279,7 +280,7 @@ html {
     }
 
     .button-fim {
-        margin: 120% 0% 0% 24.7%; 
+        margin: 125% 0% 0% 24.7%; 
         padding: 3%;
         position: absolute;
         z-index: 11;
