@@ -99,9 +99,16 @@ html {
     src: url(fonts/OpenSans-VariableFont_wdth,wght.ttf);
 }
 
- @media (max-width: 640px) and (orientation: portrait) {
+@media (max-width: 640px) and (orientation: portrait) {
     /* para formato retrato */
 
+    div {
+        max-width: webkit-min-content;
+        max-width: -moz-min-content;
+        max-width: -o-min-content;
+        max-width: -ms-min-content;
+        max-width: 100%;
+    }
 
     /* inicio home retrato */
     .home {
@@ -315,6 +322,14 @@ html {
         margin-bottom: 200px;
     }
 
+    div {
+        max-width: webkit-min-content;
+        max-width: -moz-min-content;
+        max-width: -o-min-content;
+        max-width: -ms-min-content;
+        max-width: 100%;
+    }
+
     /* inicio home paisagem */
     .home {
         display: flex;
@@ -503,9 +518,17 @@ html {
 
 /* para tablet formato paisagem */
 @media (min-width: 768px) and (max-width:1024px) and (orientation: landscape) {
-   
+
     body {
         margin-bottom: 220px;
+    }
+
+    div {
+        max-width: webkit-min-content;
+        max-width: -moz-min-content;
+        max-width: -o-min-content;
+        max-width: -ms-min-content;
+        max-width: 100%;
     }
 
     /* inicio home tablet paisagem */
@@ -672,13 +695,13 @@ html {
             }
         }
 
-       #garanta{
-        margin: 40% 0% 0% 30%;
-       }
+        #garanta {
+            margin: 40% 0% 0% 30%;
+        }
 
-       #space {
-       padding-bottom: 3%;
-       }
+        #space {
+            padding-bottom: 3%;
+        }
 
         .sociais-fim {
             display: flex;
@@ -702,28 +725,37 @@ html {
     }
 }
 
-@media (min-width:481px) and (max-width:768px){
+@media (min-width:481px) and (max-width:768px) {
 
+    div {
+        max-width: webkit-min-content;
+        max-width: -moz-min-content;
+        max-width: -o-min-content;
+        max-width: -ms-min-content;
+        max-width: 100%;
+    }
 
-    .sociais-fim{
-       position: absolute;
-       top: 240%;
-    }
-    .button-fim{
-    
-    margin-top: 70%;
-    margin-left: 65%;
-    
-    }
-    .bora{
+    .sociais-fim {
         position: absolute;
-       top: 230%;
+        top: 240%;
     }
-    
-    .sociais-inicio{
+
+    .button-fim {
+
+        margin-top: 70%;
+        margin-left: 65%;
+
+    }
+
+    .bora {
+        position: absolute;
+        top: 230%;
+    }
+
+    .sociais-inicio {
         position: absolute;
         top: 30%;
         left: 10%;
-    }  
-    
     }
+
+}
