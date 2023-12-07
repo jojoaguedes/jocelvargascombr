@@ -157,7 +157,7 @@ html {
         display: flex;
         flex-direction: row;
         margin: 123.5% 0% 0% 40%;
-        max-width: 18%;
+        max-width: 17%;
         justify-content: space-evenly;
     }
 
@@ -286,16 +286,16 @@ html {
 
     .sociais-fim {
         display: flex;
-        max-width: 18%;
+        max-width: 17%;
         align-items: center;
-        margin: 101.5% 0% 0% 2%;
+        margin: 101.5% 0% 0% 4%;
         padding-bottom: 3%;
         position: absolute;
         z-index: 6;
     }
 
     .button-fim {
-        margin: 125% 0% 0% 21%;
+        margin: 125% 0% 0% 18%;
         padding: 8%;
         position: absolute;
         z-index: 11;
