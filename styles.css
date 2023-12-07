@@ -280,9 +280,9 @@ html {
 
     .sociais-fim {
         display: flex;
-        max-width: 35%;
+        max-width: 25%;
         align-items: center;
-        margin: 101.5% 0% 0% 1%; 
+        margin: 101.5% 0% 0% 2%; 
         padding-bottom: 3%;       
         position: absolute;
         z-index: 6;
