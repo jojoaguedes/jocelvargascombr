@@ -559,7 +559,7 @@ html {
     .video-pc {
         aspect-ratio: 9/16;
         margin: 2% 0% 0% 22%;
-        height: 118%;
+        height: 120%;
         position: absolute;
     }
 
@@ -683,7 +683,7 @@ html {
             flex-direction: column;
             max-width: 3%;
             align-items: center;
-            margin: 2% 0% 0% 46%;
+            margin: -4% 0% 0% 46%;
             position: absolute;
             z-index: 6;
         }
