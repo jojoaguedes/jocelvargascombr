@@ -542,7 +542,7 @@ html {
         z-index: 5;
         display: flex;
         flex-direction: row;
-        margin: 35% 0% 0% 14%;
+        margin: 38% 0% 0% 18%;
         align-items: center;
         justify-content: space-evenly;
     }
@@ -559,7 +559,7 @@ html {
     .video-pc {
         aspect-ratio: 9/16;
         margin: 2% 0% 0% 22%;
-        height: 110%;
+        height: 120%;
         position: absolute;
     }
 
@@ -577,7 +577,7 @@ html {
     .carrossel {
         display: flex;
         margin: 20% 0% 0% 0.8%;
-        width: 85%;
+        width: 90%;
         height: 100vh;
     }
 
@@ -603,7 +603,7 @@ html {
             width: 40%;
             display: flex;
             position: relative;
-            margin: 15% 0% 0% 42.5%;
+            margin: 15% 0% 0% 48.5%;
 
             #eu {
                 position: absolute;
