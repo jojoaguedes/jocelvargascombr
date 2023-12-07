@@ -264,7 +264,7 @@ html {
         display: flex;
         position: absolute;
         width: 100%;
-        margin: 87% 0% 0% 4.5%;
+        margin: 87% 0% 0% 4%;
         z-index: 5;
 
         #chamada {
