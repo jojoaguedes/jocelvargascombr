@@ -341,6 +341,7 @@ html {
 
     .sociais-inicio {
         width: 32%;
+        -moz-width: 50%;
         position: absolute;
         z-index: 5;
         display: flex;
