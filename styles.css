@@ -579,13 +579,13 @@ html {
     .carrossel {
         display: flex;
         margin: 30% 0% 0% 0.8%;
-        width: 50%;
+        width: 60%;
         height: 100vh;
     }
 
     /* inicio contatos tablet paisagem */
     .contatos {
-
+margin-top: 10%;
         #logo-fim {
             width: 33%;
             margin: 0% 0% 0% 5%;
@@ -597,16 +597,16 @@ html {
             display: flex;
             flex-direction: column;
             width: 5%;
-            margin: 2% 0% 0% 83.2%;
+            margin: -1% 0% 0% 77.7%;
             position: absolute;
             z-index: 5;
         }
 
         .sobrepostos {
-            width: 40%;
+            width: 35%;
             display: flex;
             position: relative;
-            margin: -9% 0% 0% 32.5%;
+            margin: 5% 0% 0% 32.5%;
 
             #eu {
                 position: absolute;
@@ -661,7 +661,7 @@ html {
         .bora {
             display: flex;
             align-items: center;
-            margin: 36% 0% 2% 24.6%;
+            margin: 32% 0% 2% 24.6%;
             position: absolute;
             z-index: 5;
 
@@ -678,14 +678,14 @@ html {
         }
 
        #garanta{
-        margin: 34.3% 0% 0% 22%;
+        margin: 30% 0% 0% 22%;
        }
 
         .sociais-fim {
             display: flex;
             max-width: 20%;
             align-items: center;
-            margin: 43% 0% 0% 2%;
+            margin: 37.6% 0% 0% 2%;
             position: absolute;
             z-index: 6;
         }
