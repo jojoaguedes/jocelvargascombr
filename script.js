@@ -67,3 +67,14 @@ var swiper = new Swiper(".swiper", {
     },
     keyboard: true,
   });  
+
+// Obtenha a largura e a altura da tela do dispositivo
+const largura = window.innerWidth;
+const altura = window.innerHeight;
+
+// Verifique se a largura e a altura da tela correspondem às especificações definidas na media query
+if (largura >= 768 && largura <= 1280 && altura >= 800 && altura <= 1280) {
+  // Altere a resolução da página para a resolução ideal
+  document.body.style.width = 1280;
+  document.body.style.height = 800;
+}
