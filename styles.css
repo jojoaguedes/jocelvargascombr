@@ -559,7 +559,7 @@ html {
     .video-pc {
         aspect-ratio: 9/16;
         margin: 2% 0% 0% 22%;
-        height: 130%;
+        height: 115%;
         position: absolute;
     }
 
@@ -577,7 +577,7 @@ html {
     .carrossel {
         display: flex;
         margin: 10% 0% 0% 0.8%;
-        width: 92%;
+        width: 95%;
         height: 100vh;
     }
 
@@ -594,7 +594,7 @@ html {
             display: flex;
             flex-direction: column;
             width: 5%;
-            margin: -1% 0% 0% 89.7%;
+            margin: -1% 0% 0% 91.7%;
             position: absolute;
             z-index: 5;
         }
