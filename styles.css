@@ -112,7 +112,7 @@ html {
     }
 
     #logo-inicio {
-        width: 80%;
+        width: 150%;
     }
 
     .logo {
@@ -141,7 +141,7 @@ html {
         z-index: 5;
         display: flex;
         flex-direction: row;
-        margin: 70% 0% 0% 15%;
+        margin: 80% 0% 0% 15%;
         justify-content: space-evenly;
     }
 
@@ -253,7 +253,7 @@ html {
         display: flex;
         position: absolute;
         width: 100%;
-        margin: 87% 0% 0% 18%;
+        margin: 87% 0% 0% 10%;
         z-index: 5;
 
         #chamada {
@@ -272,14 +272,14 @@ html {
         display: flex;
         max-width: 50%;
         align-items: center;
-        margin: 97% 0% 0% 12%; 
+        margin: 104% 0% 0% 10%; 
         padding-bottom: 3%;       
         position: absolute;
         z-index: 6;
     }
 
     .button-fim {
-        margin: 110% 0% 0% 24.7%; 
+        margin: 120% 0% 0% 24.7%; 
         padding: 3%;
         position: absolute;
         z-index: 11;
