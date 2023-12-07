@@ -594,16 +594,16 @@ html {
             display: flex;
             flex-direction: column;
             width: 5%;
-            margin: -1% 0% 0% 87.7%;
+            margin: -1% 0% 0% 89.7%;
             position: absolute;
             z-index: 5;
         }
 
         .sobrepostos {
-            width: 45%;
+            width: 47%;
             display: flex;
             position: relative;
-            margin: 15% 0% 0% 50%;
+            margin: 15% 0% 0% 52%;
 
             #eu {
                 position: absolute;
@@ -682,7 +682,7 @@ html {
             display: flex;
             max-width: 3%;
             align-items: center;
-            margin: 37.6% 0% 0% 2%;
+            margin: 35.6% 0% 0% 2%;
             position: absolute;
             z-index: 6;
         }
