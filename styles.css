@@ -597,7 +597,7 @@ html {
     /* inicio carrossel tablet paisagem */
     .carrossel {
         display: flex;
-        margin: 13% 0% 0% 0.8%;
+        margin: 10% 0% 0% 0.8%;
         width: 97%;
         height: 132vh;
     }
@@ -706,9 +706,9 @@ html {
         .sociais-fim {
             display: flex;
             flex-direction: column;
-            max-width: 3%;
+            max-width: 5%;
             align-items: center;
-            margin: 3% 0% 0% 44.5%;
+            margin: 3% 0% 0% 43.5%;
             position: absolute;
             z-index: 6;
         }
