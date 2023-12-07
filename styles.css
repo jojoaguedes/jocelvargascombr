@@ -121,16 +121,20 @@ html {
     }
 
     #descricao {
-        width: 85%;
+        width: 87%;
         font-weight: 300;
         font-size: 120%;
         margin: 0% 0% 5% 8%;
     }
 
+    .space {
+        margin-bottom: 50%;
+    }
+
     .musica-inicio {
         display: flex;
         flex-direction: column;
-        margin: 0% 0% 0% 83%;
+        margin: 0% 0% 0% 82%;
         width: 11.5%;
         position: absolute;
         z-index: 0;
@@ -141,7 +145,7 @@ html {
         z-index: 5;
         display: flex;
         flex-direction: row;
-        margin: 102% 0% 0% 40%;
+        margin: 102% 0% 0% 50%;
         padding: 1%;
         max-width: 6%;
         justify-content: space-evenly;
@@ -266,7 +270,7 @@ html {
             text-transform: none;
             letter-spacing: 0.02em;
             font-weight: 350;
-            font-size: 117%;
+            font-size: 118%;
         }
     }
 
@@ -274,7 +278,7 @@ html {
         display: flex;
         max-width: 35%;
         align-items: center;
-        margin: 101% 0% 0% 2%; 
+        margin: 101% 0% 0% 1%; 
         padding-bottom: 3%;       
         position: absolute;
         z-index: 6;
