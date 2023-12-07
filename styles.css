@@ -680,9 +680,10 @@ html {
 
         .sociais-fim {
             display: flex;
+            flex-direction: column;
             max-width: 3%;
             align-items: center;
-            margin: 35.6% 0% 0% 2%;
+            margin: 12% 0% 0% 42%;
             position: absolute;
             z-index: 6;
         }
