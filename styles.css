@@ -1,7 +1,7 @@
 body {
     background-image: url(images/background.png);
-    padding: 0% 0%;
     background-size: cover;
+    overflow: auto;
 }
 
 .fundo-fim {
@@ -31,20 +31,38 @@ span {
 }
 
 button {
-    padding: 5% 5% 5% 5%;
+    padding: 0.7% 0.7% 0.7% 0.7%;
     white-space: nowrap;
     font-family: fonte-geral;
     background-color: rgb(50, 64, 71);
     border-color: rgb(253, 236, 11);
     color: white;
-    margin-left: 3%;
+    margin: 37.5%;
     border-width: 3px;
     font-weight: 750;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    transform: translateY(-1%);
 }
 
+.button-fim {
+    margin-left: 40%;
+}
+
+.logo {
+    width: 42%;
+}
+
+.sociais-inicio {
+    img {
+        width: 100%;
+    }
+}
+
+.sociais-fim {
+    img {
+        width: 20%;
+    }
+}
 #bem-vindo {
     font-family: fonte-titulos;
     letter-spacing: 0.08em;
@@ -63,10 +81,6 @@ button {
 html {
     height: 100%;
     min-height: 100%;
-}
-
-.topo {
-    width:fit-content;
 }
 
 @font-face {
@@ -116,8 +130,8 @@ html {
     .musica-inicio {
         display: flex;
         flex-direction: column;
-        margin: 10% 0% 0% 83%;
-        width: 8.5%;
+        margin: 0% 0% 0% 83%;
+        width: 10%;
         position: absolute;
         z-index: 0;
     }
@@ -127,10 +141,13 @@ html {
         z-index: 5;
         display: flex;
         flex-direction: row;
-        margin: 112% 0% 0% 17%;
-        height: 10%;
-        max-width: 80%;
+        margin: 70% 0% 0% 15%;
         justify-content: space-evenly;
+    }
+
+    .button-inicio {
+        margin: 0.7% 0% 0.7% 0%;
+        padding: 5%;
     }
 
     .video-pc {
@@ -159,7 +176,6 @@ html {
 
     .contatos {
         display: flex;
-        margin-top: 10%;
     }
 
     #logo-fim {
@@ -237,7 +253,7 @@ html {
         display: flex;
         position: absolute;
         width: 100%;
-        margin: 87% 0% 0% 5%;
+        margin: 87% 0% 0% 18%;
         z-index: 5;
 
         #chamada {
@@ -248,20 +264,25 @@ html {
             text-transform: none;
             letter-spacing: 0.02em;
             font-weight: 350;
-            font-size: 110%;
+            font-size: 120%;
         }
     }
 
     .sociais-fim {
-        width: auto;
         display: flex;
-        position: absolute;
+        max-width: 50%;
         align-items: center;
-        justify-items: center;
-        margin: 116% 5% 5% 0%;
-        max-width: 1%;
-        line-height: 8em;
+        margin: 97% 0% 0% 12%; 
+        padding-bottom: 3%;       
+        position: absolute;
         z-index: 6;
+    }
+
+    .button-fim {
+        margin: 110% 0% 0% 24.7%; 
+        padding: 3%;
+        position: absolute;
+        z-index: 11;
     }
 
     #siga-nos {
@@ -279,9 +300,11 @@ html {
 @media (orientation: landscape) {
     /* para formato paisagem */
 
+    body {
+        margin-bottom: 200px;
+    }
     /* inicio home paisagem */
     .home {
-        width: fit-content;
         display: flex;
         margin: 1%;
     }
@@ -291,7 +314,7 @@ html {
     }
 
     #logo-inicio {
-        max-width: 59%;
+        max-width: 69%;
     }
 
     .logo {
@@ -312,9 +335,14 @@ html {
         z-index: 5;
         display: flex;
         flex-direction: row;
-        margin: 36.5% 0% 0% 15%;
+        margin: 23.5% 0% 0% 15%;
         align-items: center;
         justify-content: space-evenly;
+    }
+
+    .button-inicio {
+        padding: 7% 7% 7% 7%;
+        margin-left: 2%;
     }
 
     .video {
@@ -348,7 +376,6 @@ html {
 
     /* inicio contatos paisagem */
     .contatos {
-        margin-top: 5%;
 
         #logo-fim {
             width: 33%;
@@ -370,8 +397,7 @@ html {
             width: 45%;
             display: flex;
             position: relative;
-            margin: 10.6% 0% 0% 50%;
-
+            margin: 5% 0% 0% 50%;
             #eu {
                 position: absolute;
                 margin-left: -6%;
@@ -417,8 +443,7 @@ html {
                 position: absolute;
                 z-index: 4;
                 width: 21%;
-                margin-left: 29%;
-                padding: 70% 0% 0% 0%;
+                margin: 68% 0% 0% 43%;
                 transform: rotate(-25deg);
             }
         }
@@ -444,11 +469,9 @@ html {
 
         .sociais-fim {
             display: flex;
-            flex-direction: row;
-            align-items: center;
-            margin: 36% 0% 0% 9.7%;
-            width: auto;
             max-width: 20%;
+            align-items: center;
+            margin: 37.1% 0% 0% 10%;        
             position: absolute;
             z-index: 6;
         }
@@ -465,18 +488,3 @@ html {
     }
 }
 
-.logo {
-    width: 50%;
-}
-
-.sociais-inicio {
-    img {
-        width: 100%;
-    }
-}
-
-.sociais-fim {
-    img {
-        width: 100%;
-    }
-}
