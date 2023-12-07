@@ -579,13 +579,12 @@ html {
     .carrossel {
         display: flex;
         margin: 20% 0% 0% 0.8%;
-        width: 55%;
+        width: 57%;
         height: 100vh;
     }
 
     /* inicio contatos tablet paisagem */
     .contatos {
-margin-top: 10%;
         #logo-fim {
             width: 33%;
             margin: 0% 0% 0% 5%;
