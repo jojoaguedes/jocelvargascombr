@@ -141,7 +141,8 @@ html {
         z-index: 5;
         display: flex;
         flex-direction: row;
-        margin: 100% 0% 0% 10%;
+        margin: 100% 0% 0% 25%;
+        padding: 1%;
         max-width: 10%;
         justify-content: space-evenly;
     }
@@ -254,7 +255,7 @@ html {
         display: flex;
         position: absolute;
         width: 100%;
-        margin: 87% 0% 0% 8%;
+        margin: 87% 0% 0% 4%;
         z-index: 5;
 
         #chamada {
@@ -273,15 +274,15 @@ html {
         display: flex;
         max-width: 35%;
         align-items: center;
-        margin: 102% 0% 0% 8%; 
+        margin: 102% 0% 0% 3%; 
         padding-bottom: 3%;       
         position: absolute;
         z-index: 6;
     }
 
     .button-fim {
-        margin: 125% 0% 0% 24.7%; 
-        padding: 5%;
+        margin: 125% 0% 0% 20%; 
+        padding: 8%;
         position: absolute;
         z-index: 11;
     }
