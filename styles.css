@@ -362,7 +362,7 @@ html {
         z-index: 5;
         display: flex;
         flex-direction: row;
-        margin: 38% 0% 0% 18%;
+        margin: 58% 0% 0% 18%;
         align-items: center;
         justify-content: space-evenly;
     }
@@ -378,7 +378,7 @@ html {
 
     .video-pc {
         aspect-ratio: 9/16;
-        margin: 2.2% 0% 0% 21.5%;
+        margin: 2.2% 0% 0% 1.5%;
         height: 123.7%;
         position: absolute;
     }
@@ -478,7 +478,7 @@ html {
         .bora {
             display: flex;
             align-items: center;
-            margin: 32% 0% 2% 27.6%;
+            margin: 62% 0% 2% 27.6%;
             position: absolute;
             z-index: 5;
 
@@ -507,7 +507,7 @@ html {
             flex-direction: column;
             max-width: 5%;
             align-items: center;
-            margin: 3% 0% 0% 43.5%;
+            margin: 33% 0% 0% 43.5%;
             position: absolute;
             z-index: 6;
         }
@@ -575,6 +575,10 @@ html {
         margin: 23.5% 0% 0% 15%;
         align-items: center;
         justify-content: space-evenly;
+
+        img {
+            width: 12%;
+        }
     }
 
     .button-inicio {
@@ -704,8 +708,8 @@ html {
                 font-size: 102%;
             }
         }
-        
-       .sociais-fim {
+
+        .sociais-fim {
             display: flex;
             max-width: 20%;
             align-items: center;
