@@ -80,6 +80,9 @@ window.addEventListener("orientationchange", function () {
     if (largura >= 481 && largura <= 768 && altura >= 768 && altura <= 1024) {
         // Caso contrário, aplique as regras CSS definidas na terceira media query
         document.body.style.cssText = "@media (min-width:481px) and (max-width:768px) { ... }";
+    }    
+    if (largura >= 640 && largura <= 1136 && altura >= 1136 && altura <= 1920) {
+        document.body.style.cssText = "@media (min-width: 640px) and (max-width:1136px) and (orientation: landscape) { ... }" 
     } else {
         // Aplique as regras CSS definidas na segunda media query
         document.body.style.cssText = "@media (min-width: 1024px) and (orientation: landscape) { ... }";
