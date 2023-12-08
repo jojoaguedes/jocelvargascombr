@@ -99,7 +99,18 @@ html {
     src: url(fonts/OpenSans-VariableFont_wdth,wght.ttf);
 }
 
-@media (max-width: 640px) and (orientation: portrait) {
+/* celular pequenos na orientação retrato */
+@media (min-width: 320px) and (max-width: 480px) and (orientation: portrait) {
+    
+}
+
+/* celular pequenos na orientação paisagem */
+@media (min-width: 320px) and (max-width: 480px) and (orientation: landscape) {
+   
+}
+
+/* CELULAR medio na orientação retrato */
+@media (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
     /* para formato retrato */
 
     div {
@@ -314,9 +325,8 @@ html {
 
 }
 
-
-/* para celular formato paisagem */
-@media (min-width: 640px) and (max-width:1136px) and (orientation: landscape) {
+/* CELULAR medio na orientação paisagem */
+@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
 
     body {
         margin-bottom: 220px;
@@ -478,7 +488,7 @@ html {
         .bora {
             display: flex;
             align-items: center;
-            margin: 62% 0% 2% 27.6%;
+            margin: 82% 0% 2% 27.6%;
             position: absolute;
             z-index: 5;
 
@@ -525,214 +535,13 @@ html {
     }
 }
 
-/* para PC formato paisagem */
-@media (min-width: 1024px) and (orientation: landscape) {
-    /* para formato paisagem */
-
-    body {
-        margin-bottom: 200px;
-    }
-
-    div {
-        max-width: webkit-min-content;
-        max-width: -moz-min-content;
-        max-width: -o-min-content;
-        max-width: -ms-min-content;
-        max-width: 100%;
-    }
-
-    /* inicio home paisagem */
-    .home {
-        display: flex;
-        margin: 1%;
-    }
-
-    #bem-vindo {
-        margin: 0% 0% 0% 7%;
-    }
-
-    #logo-inicio {
-        max-width: 69%;
-    }
-
-    .logo {
-        margin: 1% 0% 0% 16%;
-        position: relative;
-    }
-
-    #descricao {
-        width: 46%;
-        font-weight: 500;
-        font-size: 118%;
-        margin: 1% 0% 3% 8%;
-    }
-
-    .sociais-inicio {
-        position: absolute;
-        z-index: 5;
-        display: flex;
-        flex-direction: row;
-        margin: 23.5% 0% 0% 15%;
-        align-items: center;
-        justify-content: space-evenly;
-
-        img {
-            width: 12%;
-        }
-    }
-
-    .button-inicio {
-        padding: 7% 7% 7% 7%;
-        margin-left: 2%;
-    }
-
-    .video {
-        display: none;
-    }
-
-    .video-pc {
-        aspect-ratio: 9/16;
-        margin: 0% 0% 0% 32%;
-        height: 93%;
-        position: absolute;
-    }
-
-    .musica-inicio {
-        display: flex;
-        flex-direction: column;
-        margin: -1.1% 0% 0% 86%;
-        width: 3.5%;
-        position: absolute;
-        z-index: 0;
-    }
-
-
-    /* inicio carrossel paisagem */
-    .carrossel {
-        display: flex;
-        margin: 20.15% 0% 0% 0%;
-        width: 100%;
-        height: 132vh;
-    }
-
-    /* inicio contatos paisagem */
-    .contatos {
-
-        #logo-fim {
-            width: 33%;
-            margin: 3% 0% 0% 12%;
-            position: absolute;
-            z-index: 6;
-        }
-
-        .musica-fim {
-            display: flex;
-            flex-direction: column;
-            width: 3.6%;
-            margin: 3% 0% 0% 88.7%;
-            position: absolute;
-            z-index: 5;
-        }
-
-        .sobrepostos {
-            width: 45%;
-            display: flex;
-            position: relative;
-            margin: 0% 0% 0% 50%;
-
-            #eu {
-                position: absolute;
-                margin-left: -6%;
-                z-index: 0;
-                width: 100%;
-            }
-
-            #quadro {
-                width: 76%;
-                margin: -5% 0% 0% 15%;
-                position: absolute;
-                z-index: 1;
-            }
-
-            #parte-do-show {
-                position: absolute;
-                z-index: 2;
-                line-height: 1.261em;
-                font-family: 'fonte-economica', monospace;
-                text-align: center;
-                margin-left: 40%;
-                margin-top: 60.5%;
-                font-weight: 300;
-                font-size: 120%;
-                letter-spacing: 0.05em;
-                text-shadow: 0.0441em 0.0606em 0.0125em rgba(0, 0, 0, 0.300000);
-            }
-
-            #toque {
-                position: absolute;
-                z-index: 3;
-                font-size: 106%;
-                direction: ltr;
-                font-family: 'fonte-geral', monospace;
-                text-align: center;
-                margin: 81% 0% 0% 39%;
-                line-height: 100%;
-                text-transform: none;
-                letter-spacing: -0.05em;
-            }
-
-            #ej200 {
-                position: absolute;
-                z-index: 4;
-                width: 21%;
-                margin: 68% 0% 0% 43%;
-                transform: rotate(-25deg);
-            }
-        }
-
-        .bora {
-            display: flex;
-            align-items: center;
-            margin: 32% 0% 2% 37%;
-            position: absolute;
-            z-index: 5;
-
-            #chamada {
-                direction: ltr;
-                font-family: 'fonte-geral', monospace;
-                text-align: center;
-                line-height: 1.3em;
-                text-transform: none;
-                letter-spacing: -0.05em;
-                font-weight: 500;
-                font-size: 102%;
-            }
-        }
-
-        .sociais-fim {
-            display: flex;
-            max-width: 20%;
-            align-items: center;
-            margin: 35.9% 0% 0% 8%;
-            position: absolute;
-            z-index: 6;
-        }
-
-        #siga-nos {
-            margin-right: 5%;
-            font-family: 'fonte-geral', monospace;
-            text-transform: none;
-            flex: 1;
-            flex-grow: 1;
-            flex-shrink: 0;
-            white-space: nowrap;
-        }
-    }
+/* TABLET na orientação retrato */
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) {
+   
 }
 
-
-/* para tablet formato paisagem */
-@media (min-width: 768px) and (max-width:1024px) and (orientation: landscape) {
+/* TABLET na orientação paisagem */
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
 
     body {
         margin-bottom: 220px;
@@ -941,7 +750,13 @@ html {
     }
 }
 
-@media (min-width:481px) and (max-width:768px) {
+/* PC formato paisagem */
+@media (min-width: 1025px) and (orientation: landscape) {
+    /* para formato paisagem */
+
+    body {
+        margin-bottom: 200px;
+    }
 
     div {
         max-width: webkit-min-content;
@@ -951,27 +766,191 @@ html {
         max-width: 100%;
     }
 
-    .sociais-fim {
-        position: absolute;
-        top: 240%;
+    /* inicio home paisagem */
+    .home {
+        display: flex;
+        margin: 1%;
     }
 
-    .button-fim {
-
-        margin-top: 70%;
-        margin-left: 65%;
-
+    #bem-vindo {
+        margin: 0% 0% 0% 7%;
     }
 
-    .bora {
-        position: absolute;
-        top: 230%;
+    #logo-inicio {
+        max-width: 69%;
+    }
+
+    .logo {
+        margin: 1% 0% 0% 16%;
+        position: relative;
+    }
+
+    #descricao {
+        width: 46%;
+        font-weight: 500;
+        font-size: 118%;
+        margin: 1% 0% 3% 8%;
     }
 
     .sociais-inicio {
         position: absolute;
-        top: 30%;
-        left: 10%;
+        z-index: 5;
+        display: flex;
+        flex-direction: row;
+        margin: 23.5% 0% 0% 15%;
+        align-items: center;
+        justify-content: space-evenly;
+
+        img {
+            width: 12%;
+        }
     }
 
+    .button-inicio {
+        padding: 7% 7% 7% 7%;
+        margin-left: 2%;
+    }
+
+    .video {
+        display: none;
+    }
+
+    .video-pc {
+        aspect-ratio: 9/16;
+        margin: 0% 0% 0% 32%;
+        height: 93%;
+        position: absolute;
+    }
+
+    .musica-inicio {
+        display: flex;
+        flex-direction: column;
+        margin: -1.1% 0% 0% 86%;
+        width: 3.5%;
+        position: absolute;
+        z-index: 0;
+    }
+
+
+    /* inicio carrossel paisagem */
+    .carrossel {
+        display: flex;
+        margin: 20.15% 0% 0% 0%;
+        width: 100%;
+        height: 132vh;
+    }
+
+    /* inicio contatos paisagem */
+    .contatos {
+
+        #logo-fim {
+            width: 33%;
+            margin: 3% 0% 0% 12%;
+            position: absolute;
+            z-index: 6;
+        }
+
+        .musica-fim {
+            display: flex;
+            flex-direction: column;
+            width: 3.6%;
+            margin: 3% 0% 0% 88.7%;
+            position: absolute;
+            z-index: 5;
+        }
+
+        .sobrepostos {
+            width: 45%;
+            display: flex;
+            position: relative;
+            margin: 0% 0% 0% 50%;
+
+            #eu {
+                position: absolute;
+                margin-left: -6%;
+                z-index: 0;
+                width: 100%;
+            }
+
+            #quadro {
+                width: 76%;
+                margin: -5% 0% 0% 15%;
+                position: absolute;
+                z-index: 1;
+            }
+
+            #parte-do-show {
+                position: absolute;
+                z-index: 2;
+                line-height: 1.261em;
+                font-family: 'fonte-economica', monospace;
+                text-align: center;
+                margin-left: 40%;
+                margin-top: 60.5%;
+                font-weight: 300;
+                font-size: 120%;
+                letter-spacing: 0.05em;
+                text-shadow: 0.0441em 0.0606em 0.0125em rgba(0, 0, 0, 0.300000);
+            }
+
+            #toque {
+                position: absolute;
+                z-index: 3;
+                font-size: 106%;
+                direction: ltr;
+                font-family: 'fonte-geral', monospace;
+                text-align: center;
+                margin: 81% 0% 0% 39%;
+                line-height: 100%;
+                text-transform: none;
+                letter-spacing: -0.05em;
+            }
+
+            #ej200 {
+                position: absolute;
+                z-index: 4;
+                width: 21%;
+                margin: 68% 0% 0% 43%;
+                transform: rotate(-25deg);
+            }
+        }
+
+        .bora {
+            display: flex;
+            align-items: center;
+            margin: 32% 0% 2% 37%;
+            position: absolute;
+            z-index: 5;
+
+            #chamada {
+                direction: ltr;
+                font-family: 'fonte-geral', monospace;
+                text-align: center;
+                line-height: 1.3em;
+                text-transform: none;
+                letter-spacing: -0.05em;
+                font-weight: 500;
+                font-size: 102%;
+            }
+        }
+
+        .sociais-fim {
+            display: flex;
+            max-width: 20%;
+            align-items: center;
+            margin: 35.9% 0% 0% 8%;
+            position: absolute;
+            z-index: 6;
+        }
+
+        #siga-nos {
+            margin-right: 5%;
+            font-family: 'fonte-geral', monospace;
+            text-transform: none;
+            flex: 1;
+            flex-grow: 1;
+            flex-shrink: 0;
+            white-space: nowrap;
+        }
+    }
 }

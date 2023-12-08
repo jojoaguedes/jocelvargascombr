@@ -73,18 +73,35 @@ window.addEventListener("orientationchange", function () {
     const largura = window.innerWidth;
     const altura = window.innerHeight;
 
-    // Se o tamanho da tela do dispositivo corresponder às especificações da primeira media query, aplique as regras CSS definidas nessa media query
-    if (largura >= 768 && largura <= 1024 && altura >= 1024 && altura <= 1280) {
+    // Escolha do tamanho da tela do dispositivo 
+    if (largura >= 320 && largura <= 480 && window.screen.orientation === "landscape") {
+        // Celular pequeno 
+        document.body.style.cssText = "@media (min-width: 320px) and (max-width:480px) and (orientation: landscape) { ... }";
+      } else if (largura >= 481 && largura <= 768 && window.screen.orientation === "landscape") {
+         // Celular medio
+        document.body.style.cssText = "@media (min-width: 481px) and (max-width:768px) and (orientation: landscape) { ... }";
+      } else if (largura >= 769 && largura <= 1024 && window.screen.orientation === "landscape") {
+        // Tablet
         document.body.style.cssText = "@media (min-width: 768px) and (max-width:1024px) and (orientation: landscape) { ... }";
-    }
-    if (largura >= 481 && largura <= 768 && altura >= 768 && altura <= 1024) {
-        // Caso contrário, aplique as regras CSS definidas na terceira media query
-        document.body.style.cssText = "@media (min-width:481px) and (max-width:768px) { ... }";
-    }    
-    if (largura >= 640 && largura <= 1136 && altura >= 1136 && altura <= 1920) {
-        document.body.style.cssText = "@media (min-width: 640px) and (max-width:1136px) and (orientation: landscape) { ... }" 
-    } else {
-        // Aplique as regras CSS definidas na segunda media query
-        document.body.style.cssText = "@media (min-width: 1024px) and (orientation: landscape) { ... }";
-    }
+      } else if (largura >= 1025) {
+        // Notebook e PC
+        document.body.style.cssText = "@media (min-width: 1025px) { ... }";
+      }
 });
+    //if (largura >= 320 && largura <= 480 && altura >= 480 && altura <= 1024) {
+        // celular 
+     //   document.body.style.cssText = "@media (min-width:481px) and (max-width:768px) { ... }";
+  //  }    
+   // if (largura >= 641 && largura <= 1136 && altura >= 1136 && altura <= 1920) {
+        //celular deitado
+  //      document.body.style.cssText = "@media (min-width: 641px) and (max-width:1136px) and (orientation: landscape) { ... }" 
+   // }
+   // if (largura >= 769 && largura <= 1024 && altura >= 1024 && altura <= 1280) {
+        //tablet
+    //    document.body.style.cssText = "@media (min-width: 769px) and (max-width:1024px) and (orientation: landscape) { ... }";
+  //  }
+  //  else {
+        // notebook e PC
+   //     document.body.style.cssText = "@media (min-width: 1024px) and (max-width:1200px) and (orientation: landscape) { ... }";
+  //  }
+//});
