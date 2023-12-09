@@ -217,7 +217,7 @@ html {
             display: none;
         }
 
-        #eu2 {
+        #eu-mob {
           position: relative;
           margin-left: 5%;
           width: 100%;
@@ -1509,7 +1509,7 @@ html {
                 width: 100%;
             }
 
-            #eu2 {
+            #eu-mob {
                 display: none;
             }
 
