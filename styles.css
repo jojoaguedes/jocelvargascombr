@@ -56,6 +56,10 @@ button {
     text-transform: uppercase;
 }
 
+#parte-do-show {
+    white-space: nowrap;
+}
+
 .button-fim {
     margin-left: 40%;
 }
@@ -1081,6 +1085,10 @@ html {
         margin-left: -2%;
         z-index: 0;
         width: 100%;
+    }
+
+    #eu-mob {
+        diplay:none;
     }
 
     #quadro {
