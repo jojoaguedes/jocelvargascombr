@@ -72,36 +72,21 @@ window.addEventListener("orientationchange", function () {
     // Verifique o tamanho da tela do dispositivo
     const largura = window.innerWidth;
     const altura = window.innerHeight;
-
-    // Escolha do tamanho da tela do dispositivo 
-    if (largura >= 320 && largura <= 480 && window.screen.orientation === "landscape") {
-        // Celular pequeno 
-        document.body.style.cssText = "@media (min-width: 320px) and (max-width:480px) and (orientation: landscape) { ... }";
-      } else if (largura >= 481 && largura <= 768 && window.screen.orientation === "landscape") {
-         // Celular medio
-        document.body.style.cssText = "@media (min-width: 481px) and (max-width:768px) and (orientation: landscape) { ... }";
-      } else if (largura >= 769 && largura <= 1024 && window.screen.orientation === "landscape") {
-        // Tablet
-        document.body.style.cssText = "@media (min-width: 768px) and (max-width:1024px) and (orientation: landscape) { ... }";
-      } else if (largura >= 1025) {
-        // Notebook e PC
-        document.body.style.cssText = "@media (min-width: 1025px) { ... }";
+  
+    // Função para aplicar estilos com base na largura e orientação
+    function applyStyles(largura, orientacao) {
+      const mediaQuery = `(min-width: ${largura}px) and (orientation: ${orientacao})`;
+      if (window.matchMedia(mediaQuery).matches) {
+        // Carregue o arquivo CSS correspondente
+        const link = document.createElement("link");
+        link.rel = "stylesheet";
+        link.href = `styles/${mediaQuery}.css`;
+        document.head.appendChild(link);
       }
-});
-    //if (largura >= 320 && largura <= 480 && altura >= 480 && altura <= 1024) {
-        // celular 
-     //   document.body.style.cssText = "@media (min-width:481px) and (max-width:768px) { ... }";
-  //  }    
-   // if (largura >= 641 && largura <= 1136 && altura >= 1136 && altura <= 1920) {
-        //celular deitado
-  //      document.body.style.cssText = "@media (min-width: 641px) and (max-width:1136px) and (orientation: landscape) { ... }" 
-   // }
-   // if (largura >= 769 && largura <= 1024 && altura >= 1024 && altura <= 1280) {
-        //tablet
-    //    document.body.style.cssText = "@media (min-width: 769px) and (max-width:1024px) and (orientation: landscape) { ... }";
-  //  }
-  //  else {
-        // notebook e PC
-   //     document.body.style.cssText = "@media (min-width: 1024px) and (max-width:1200px) and (orientation: landscape) { ... }";
-  //  }
-//});
+    }
+  
+    // Aplique estilos para portrait e landscape
+    applyStyles(largura, "portrait");
+    applyStyles(largura, "landscape");
+  });
+

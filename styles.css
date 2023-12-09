@@ -101,12 +101,428 @@ html {
 
 /* celular pequenos na orientação retrato */
 @media (min-width: 320px) and (max-width: 480px) and (orientation: portrait) {
-    
+    /* para formato retrato */
+
+    div {
+        max-width: webkit-min-content;
+        max-width: -moz-min-content;
+        max-width: -o-min-content;
+        max-width: -ms-min-content;
+        max-width: 100%;
+    }
+
+    /* inicio home retrato */
+    .home {
+        margin: 1%;
+        width: fit-content;
+        display: flex;
+    }
+
+    #logo-inicio {
+        width: 150%;
+    }
+
+    .logo {
+        max-width: 100%;
+        margin: 5% 0% 0% 25%;
+        position: relative;
+    }
+
+    #descricao {
+        width: 87.5%;
+        font-weight: 300;
+        font-size: 120%;
+        margin: 18% 0% 5% 7%;
+    }
+
+    .space {
+        margin-bottom: 50%;
+    }
+
+    .musica-inicio {
+        display: flex;
+        flex-direction: column;
+        margin: 0% 0% 0% 82%;
+        width: 11.5%;
+        position: absolute;
+        z-index: 0;
+    }
+
+
+    .space-h {
+        margin-right: 20%;
+    }
+
+    .sociais-inicio {
+        position: absolute;
+        z-index: 5;
+        display: flex;
+        flex-direction: row;
+        margin: 123.5% 0% 0% 41.5%;
+        max-width: 15%;
+        justify-content: space-evenly;
+    }
+
+    .button-inicio {
+        margin: 0.7% 0% 0.7% 0%;
+    }
+
+    .video-pc {
+        display: none;
+        width: 0%;
+    }
+
+    .video {
+        aspect-ratio: 9/16;
+        margin: -200% 0% 0% 2.5%;
+        width: 95%;
+        height: 95%;
+    }
+
+    /* inicio carrossel retrato */
+    .carrossel {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 33% 0% 10% 2.5%;
+        width: 95%;
+        height: 132vh;
+    }
+
+    /* inicio contatos retrato */
+
+    .contatos {
+        display: flex;
+    }
+
+    #logo-fim {
+        display: none;
+        width: 0%;
+    }
+
+    .musica-fim {
+        display: flex;
+        flex-direction: column;
+        width: 8.5%;
+        margin: 5% 0% 0% 79.7%;
+        position: absolute;
+        z-index: 5;
+    }
+
+    .sobrepostos {
+        display: flex;
+        position: relative;
+        width: 88%;
+        margin: 0% 0% 0% 0%;
+
+        #eu {
+            position: absolute;
+            margin-left: -2%;
+            z-index: 0;
+            width: 100%;
+        }
+
+        #quadro {
+            width: 76%;
+            margin: -6% 0% 0% 20%;
+            position: absolute;
+            z-index: 1;
+        }
+
+        #parte-do-show {
+            position: absolute;
+            z-index: 2;
+            line-height: 1.261em;
+            font-family: 'fonte-economica', monospace;
+            text-align: center;
+            margin: 60.5% 0% 0% 35%;
+            font-weight: 300;
+            font-size: 100%;
+            letter-spacing: 0.05em;
+            text-shadow: 0.0441em 0.0606em 0.0125em rgba(0, 0, 0, 0.300000);
+        }
+
+        #toque {
+            position: absolute;
+            z-index: 3;
+            font-size: 80%;
+            direction: ltr;
+            font-family: 'fonte-geral', monospace;
+            text-align: center;
+            margin-left: 36%;
+            margin-top: 80%;
+            line-height: 100%;
+            text-transform: none;
+            letter-spacing: -0.05em;
+        }
+
+        #ej200 {
+            position: absolute;
+            z-index: 4;
+            width: 20%;
+            margin-left: 30%;
+            margin: 68% 0% 0% 48%;
+            transform: rotate(-25deg);
+        }
+    }
+
+    .bora {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        margin: 87% 0% 0% 5.5%;
+        z-index: 5;
+
+        #chamada {
+            direction: ltr;
+            font-family: 'fonte-geral', monospace;
+            text-align: center;
+            line-height: 1.3em;
+            text-transform: none;
+            letter-spacing: 0.02em;
+            font-weight: 350;
+            font-size: 106.5%;
+            white-space: nowrap;
+        }
+    }
+
+    .sociais-fim {
+        display: flex;
+        max-width: 15%;
+        align-items: center;
+        margin: 101.5% 0% 0% 11%;
+        padding-bottom: 3%;
+        position: absolute;
+        z-index: 6;
+    }
+
+    .button-fim {
+        margin: 125% 0% 0% 15%;
+        padding: 8%;
+        position: absolute;
+        z-index: 11;
+    }
+
+    #siga-nos {
+        margin-right: 5%;
+        font-family: 'fonte-geral', monospace;
+        text-transform: none;
+        flex: 1;
+        flex-grow: 1;
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+
 }
 
 /* celular pequenos na orientação paisagem */
 @media (min-width: 320px) and (max-width: 480px) and (orientation: landscape) {
    
+    body {
+        margin-bottom: 220px;
+    }
+
+    div {
+        max-width: webkit-min-content;
+        max-width: -moz-min-content;
+        max-width: -o-min-content;
+        max-width: -ms-min-content;
+        max-width: 100%;
+    }
+
+    /* inicio home celular paisagem */
+    .home {
+        display: flex;
+        margin: 1%;
+    }
+
+    #bem-vindo {
+        margin: 0% 0% 0% 2%;
+    }
+
+    #logo-inicio {
+        max-width: 60%;
+    }
+
+    .logo {
+        margin: 1.5% 0% 0% 10%;
+        position: relative;
+    }
+
+    #descricao {
+        width: 53%;
+        font-weight: 500;
+        font-size: 118%;
+        margin: 2% 0% 3% 1%;
+    }
+
+    .sociais-inicio {
+        width: 20%;
+        position: absolute;
+        z-index: 5;
+        display: flex;
+        flex-direction: row;
+        margin: 58% 0% 0% 18%;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .button-inicio {
+        padding: 7% 7% 7% 7%;
+        margin-left: 2%;
+    }
+
+    .video {
+        display: none;
+    }
+
+    .video-pc {
+        aspect-ratio: 9/16;
+        margin: 2.2% 0% 0% 1.5%;
+        height: 123.7%;
+        position: absolute;
+    }
+
+    .musica-inicio {
+        display: flex;
+        flex-direction: column;
+        margin: 1% 0% 0% 87%;
+        width: 8%;
+        position: absolute;
+        z-index: 0;
+    }
+
+
+    /* inicio carrossel celular paisagem */
+    .carrossel {
+        display: flex;
+        margin: 12% 0% 0% 0.8%;
+        width: 97%;
+        height: 132vh;
+    }
+
+    /* inicio contatos celular paisagem */
+    .contatos {
+        #logo-fim {
+            width: 33%;
+            margin: 0% 0% 0% 5%;
+            position: absolute;
+            z-index: 6;
+        }
+
+        .musica-fim {
+            display: flex;
+            flex-direction: column;
+            width: 5%;
+            margin: -1% 0% 0% 91.7%;
+            position: absolute;
+            z-index: 5;
+        }
+
+        .sobrepostos {
+            width: 47%;
+            display: flex;
+            position: relative;
+            margin: 2% 0% 0% 52%;
+
+            #eu {
+                position: absolute;
+                margin-left: -6%;
+                z-index: 0;
+                width: 100%;
+            }
+
+            #quadro {
+                width: 76%;
+                margin: -5% 0% 0% 15%;
+                position: absolute;
+                z-index: 1;
+            }
+
+            #parte-do-show {
+                position: absolute;
+                z-index: 2;
+                line-height: 1.261em;
+                font-family: 'fonte-economica', monospace;
+                text-align: center;
+                margin-left: 36%;
+                margin-top: 60.5%;
+                font-weight: 300;
+                font-size: 100%;
+                letter-spacing: 0.05em;
+                text-shadow: 0.0441em 0.0606em 0.0125em rgba(0, 0, 0, 0.300000);
+            }
+
+            #toque {
+                position: absolute;
+                z-index: 3;
+                font-size: 80%;
+                direction: ltr;
+                font-family: 'fonte-geral', monospace;
+                text-align: center;
+                margin: 81% 0% 0% 35%;
+                line-height: 100%;
+                text-transform: none;
+                letter-spacing: -0.05em;
+            }
+
+            #ej200 {
+                position: absolute;
+                z-index: 4;
+                width: 21%;
+                margin: 68% 0% 0% 43%;
+                transform: rotate(-25deg);
+            }
+        }
+
+        .bora {
+            display: flex;
+            align-items: center;
+            margin: 82% 0% 2% 27.6%;
+            position: absolute;
+            z-index: 5;
+
+            #chamada {
+                direction: ltr;
+                font-family: 'fonte-geral', monospace;
+                text-align: center;
+                line-height: 1.3em;
+                text-transform: none;
+                letter-spacing: -0.05em;
+                font-weight: 500;
+                font-size: 102%;
+            }
+        }
+
+        #garanta {
+            margin: 40% 0% 0% 30%;
+        }
+
+        #space {
+            padding-bottom: 30%;
+        }
+
+        .sociais-fim {
+            display: flex;
+            flex-direction: column;
+            max-width: 5%;
+            align-items: center;
+            margin: 33% 0% 0% 43.5%;
+            position: absolute;
+            z-index: 6;
+        }
+
+        #siga-nos {
+            margin-right: 5%;
+            padding: 25%;
+            font-family: 'fonte-geral', monospace;
+            text-transform: none;
+            flex: 1;
+            flex-grow: 1;
+            flex-shrink: 0;
+            white-space: nowrap;
+        }
+    }
 }
 
 /* CELULAR medio na orientação retrato */
@@ -537,8 +953,220 @@ html {
 
 /* TABLET na orientação retrato */
 @media (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) {
-   
+   /* para formato retrato */
+
+   div {
+    max-width: webkit-min-content;
+    max-width: -moz-min-content;
+    max-width: -o-min-content;
+    max-width: -ms-min-content;
+    max-width: 100%;
 }
+
+/* inicio home retrato */
+.home {
+    margin: 1%;
+    width: fit-content;
+    display: flex;
+}
+
+#logo-inicio {
+    width: 150%;
+}
+
+.logo {
+    max-width: 100%;
+    margin: 5% 0% 0% 25%;
+    position: relative;
+}
+
+#descricao {
+    width: 87.5%;
+    font-weight: 300;
+    font-size: 120%;
+    margin: 18% 0% 5% 7%;
+}
+
+.space {
+    margin-bottom: 50%;
+}
+
+.musica-inicio {
+    display: flex;
+    flex-direction: column;
+    margin: 0% 0% 0% 82%;
+    width: 11.5%;
+    position: absolute;
+    z-index: 0;
+}
+
+
+.space-h {
+    margin-right: 20%;
+}
+
+.sociais-inicio {
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    flex-direction: row;
+    margin: 123.5% 0% 0% 41.5%;
+    max-width: 15%;
+    justify-content: space-evenly;
+}
+
+.button-inicio {
+    margin: 0.7% 0% 0.7% 0%;
+}
+
+.video-pc {
+    display: none;
+    width: 0%;
+}
+
+.video {
+    aspect-ratio: 9/16;
+    margin: -127.25% 0% 0% 2.5%;
+    width: 95%;
+    height: 95%;
+}
+
+/* inicio carrossel retrato */
+.carrossel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 33% 0% 10% 2.5%;
+    width: 95%;
+    height: 132vh;
+}
+
+/* inicio contatos retrato */
+
+.contatos {
+    display: flex;
+}
+
+#logo-fim {
+    display: none;
+    width: 0%;
+}
+
+.musica-fim {
+    display: flex;
+    flex-direction: column;
+    width: 8.5%;
+    margin: 5% 0% 0% 79.7%;
+    position: absolute;
+    z-index: 5;
+}
+
+.sobrepostos {
+    display: flex;
+    position: relative;
+    width: 88%;
+    margin: 0% 0% 0% 0%;
+
+    #eu {
+        position: absolute;
+        margin-left: -2%;
+        z-index: 0;
+        width: 100%;
+    }
+
+    #quadro {
+        width: 76%;
+        margin: -6% 0% 0% 20%;
+        position: absolute;
+        z-index: 1;
+    }
+
+    #parte-do-show {
+        position: absolute;
+        z-index: 2;
+        line-height: 1.261em;
+        font-family: 'fonte-economica', monospace;
+        text-align: center;
+        margin: 60.5% 0% 0% 35%;
+        font-weight: 300;
+        font-size: 100%;
+        letter-spacing: 0.05em;
+        text-shadow: 0.0441em 0.0606em 0.0125em rgba(0, 0, 0, 0.300000);
+    }
+
+    #toque {
+        position: absolute;
+        z-index: 3;
+        font-size: 80%;
+        direction: ltr;
+        font-family: 'fonte-geral', monospace;
+        text-align: center;
+        margin-left: 36%;
+        margin-top: 80%;
+        line-height: 100%;
+        text-transform: none;
+        letter-spacing: -0.05em;
+    }
+
+    #ej200 {
+        position: absolute;
+        z-index: 4;
+        width: 20%;
+        margin-left: 30%;
+        margin: 68% 0% 0% 48%;
+        transform: rotate(-25deg);
+    }
+}
+
+.bora {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    margin: 87% 0% 0% 5.5%;
+    z-index: 5;
+
+    #chamada {
+        direction: ltr;
+        font-family: 'fonte-geral', monospace;
+        text-align: center;
+        line-height: 1.3em;
+        text-transform: none;
+        letter-spacing: 0.02em;
+        font-weight: 350;
+        font-size: 115%;
+        white-space: nowrap;
+    }
+}
+
+.sociais-fim {
+    display: flex;
+    max-width: 15%;
+    align-items: center;
+    margin: 101.5% 0% 0% 11%;
+    padding-bottom: 3%;
+    position: absolute;
+    z-index: 6;
+}
+
+.button-fim {
+    margin: 125% 0% 0% 15%;
+    padding: 8%;
+    position: absolute;
+    z-index: 11;
+}
+
+#siga-nos {
+    margin-right: 5%;
+    font-family: 'fonte-geral', monospace;
+    text-transform: none;
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+}
+
 
 /* TABLET na orientação paisagem */
 @media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
