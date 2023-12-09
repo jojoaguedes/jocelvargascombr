@@ -216,12 +216,17 @@ html {
         margin: 0% 0% 0% 0%;
       
         #eu {
+            dispay: none;
+        }
+
+        #eu2 {
           position: relative;
           margin-left: -2%;
           width: 100%;
         }
       
         #quadro {
+          display:none;
           width: 76%;
           margin: -6% 0% 0% 20%;
           position: relative;
@@ -256,6 +261,7 @@ html {
         }
       
         #ej200 {
+          display: none;
           position: absolute;
           top: 68%;
           left: 48%;
@@ -1499,6 +1505,10 @@ html {
                 margin-left: -6%;
                 z-index: 0;
                 width: 100%;
+            }
+
+            #eu2 {
+                display: none;
             }
 
             #quadro {
