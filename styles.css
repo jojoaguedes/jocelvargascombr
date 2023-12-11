@@ -711,6 +711,10 @@ html {
           transform: rotate(-25deg);
         }
 
+        .ej {
+            display: none;
+        }
+
         #ej200-botao {
             position: absolute;
             top: 68%;
