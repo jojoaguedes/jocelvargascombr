@@ -713,6 +713,7 @@ html {
 
         .ej {
             display: none;
+            visibility: hidden;
         }
 
         #ej200-botao {
