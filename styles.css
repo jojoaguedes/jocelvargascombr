@@ -622,9 +622,9 @@ html {
     }
 
     .button-inicio {
-        font-size: 60%;
+        font-size: 50%;
         font-weight: 750;
-        margin: 0.7% 0% 0.7% 5%;
+        margin: 0.7% 0% 0.7% 8%;
     }
 
     .video-pc {
@@ -647,7 +647,7 @@ html {
         flex-wrap: wrap;
         margin: 16% 0% 10% 2.5%;
         width: 95%;
-        height: 125vh;
+        height: 130vh;
     }
 
     /* inicio contatos retrato */
