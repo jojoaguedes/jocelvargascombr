@@ -623,7 +623,7 @@ html {
 
     .button-inicio {
         font-size: 45%;
-        font-weight: 350;
+        font-weight: 550;
         padding: 20%;
         margin: 2% 0% 0% 15%;
     }
@@ -636,7 +636,7 @@ html {
 
     .video {
         aspect-ratio: 9/16;
-        margin: -160% 0% 0% 2.5%;
+        margin: -140% 0% 0% 2.5%;
         width: 95%;
         height: 95%;
     }
@@ -694,7 +694,7 @@ html {
         #parte-do-show {
           position: absolute;
           top: 58%;
-          left: 43%;
+          left: 42%;
           z-index: 11;
           line-height: 1.261em;
           font-family: "fonte-economica", monospace;
@@ -708,10 +708,10 @@ html {
         #toque {
           padding-top: 17%;
           position: absolute;
-          top: 64%;
-          left: 43%;
+          top: 64.5%;
+          left: 44%;
           z-index: 10;
-          font-size: 80%;
+          font-size: 70%;
           direction: ltr;
           font-family: "fonte-geral", monospace;
           text-align: center;
@@ -757,12 +757,13 @@ html {
         display: flex;
         max-width: 15%;
         align-items: center;
-        margin: 112.5% 0% 0% 11%;
+        margin: 113% 0% 0% 11%;
         padding-bottom: 3%;
         position: absolute;
       }
       
       .button-fim {
+        font-weight: 550;
         margin: 131% 0% 0% 15%;
         padding: 8%;
         position: absolute;
