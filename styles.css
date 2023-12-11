@@ -613,7 +613,7 @@ html {
 
     .video {
         aspect-ratio: 9/16;
-        margin: -200% 0% 0% 2.5%;
+        margin: -160% 0% 0% 2.5%;
         width: 95%;
         height: 95%;
     }
@@ -664,7 +664,7 @@ html {
       
         #quadro {
           display:none;
-          width: 76%;
+          width:0%;
           margin: -6% 0% 0% 20%;
           position: relative;
         } 
@@ -703,7 +703,7 @@ html {
           position: absolute;
           top: 68%;
           left: 48%;
-          width: 20%;
+          width: 0%;
           margin: 0;
           transform: rotate(-25deg);
         }
