@@ -587,7 +587,7 @@ html {
     }
 
     #descricao {
-        width: 87.5%;
+        width: 86%;
         font-weight: 300;
         font-size: 120%;
         margin: 2% 0% 5% 7%;
@@ -622,7 +622,9 @@ html {
     }
 
     .button-inicio {
-        margin: 0.7% 0% 0.7% 0%;
+        font-size: 60%;
+        font-weight: 750;
+        margin: 0.7% 0% 0.7% 5%;
     }
 
     .video-pc {
@@ -643,9 +645,9 @@ html {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        margin: 33% 0% 10% 2.5%;
+        margin: 16% 0% 10% 2.5%;
         width: 95%;
-        height: 132vh;
+        height: 125vh;
     }
 
     /* inicio contatos retrato */
@@ -678,6 +680,7 @@ html {
         }
 
         #eu-mob {
+          display: block;
           position: relative;
           margin-left: 5%;
           width: 100%;
