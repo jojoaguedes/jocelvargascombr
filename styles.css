@@ -666,7 +666,7 @@ html {
         display: flex;
         flex-direction: column;
         width: 10%;
-        margin: 10% 0% 0% 84.5%;
+        margin: 2% 0% 0% 84.5%;
         position: absolute;
       }
       
@@ -674,7 +674,7 @@ html {
         display: flex;
         position: relative;
         width: 86%;
-        margin: 10% 0% 0% 0%;
+        margin: 2% 0% 0% 0%;
       
         #eu {
           visibility: hidden;
@@ -738,7 +738,7 @@ html {
         display: flex;
         position: absolute;
         width: 100%;
-        margin: 100% 0% 0% 5%;
+        margin: 91% 0% 0% 5%;
       
         #chamada {
         direction: ltr;
@@ -755,21 +755,23 @@ html {
       
       .sociais-fim {
         display: flex;
-        max-width: 15%;
+        max-width: 12.5%;
         align-items: center;
-        margin: 113% 0% 0% 11%;
+        margin: 105% 0% 0% 22.5%;
         padding-bottom: 3%;
         position: absolute;
       }
       
       .button-fim {
+        font-size: 66%;
         font-weight: 550;
-        margin: 131% 0% 0% 15%;
-        padding: 8%;
+        margin: 121% 0% 0% 22%;
+        padding: 7%;
         position: absolute;
       }
       
       #siga-nos {
+        font-size: 60%;
         margin-right: 5%;
         font-family: "fonte-geral", monospace;
         text-transform: none;
