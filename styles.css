@@ -668,7 +668,7 @@ html {
         #quadro {
           display: none;
           visibility: hidden;
-          width: 1px;
+          max-width: 1px;
           margin: -6% 0% 0% 20%;
         } 
       
@@ -706,7 +706,7 @@ html {
           visibility: hidden;
           top: 68%;
           left: 0%;
-          width: 1px;
+          max-width: 1px;
           margin: 0;
           transform: rotate(-25deg);
         }
