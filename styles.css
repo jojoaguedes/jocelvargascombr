@@ -2132,19 +2132,21 @@ html {
      }
  
      .sociais-inicio {
-         width: 20%;
-         position: absolute;
-         z-index: 5;
-         display: flex;
-         flex-direction: row;
-         margin: 35% 0% 0% 18%;
-         align-items: center;
-         justify-content: space-evenly;
-     }
+        width: 6.5%;
+        position: absolute;
+        z-index: 5;
+        display: flex;
+        flex-direction: row;
+        margin: 42% 0% 0% 22%;
+        align-items: center;
+        justify-content: space-evenly;
+    }
  
      .button-inicio {
+         font-size: 150%;
+         font-weight: 250;
          padding: 7% 7% 7% 7%;
-         margin-left: 2%;
+         margin-left: 5%;
      }
  
      .video {
@@ -2260,7 +2262,7 @@ html {
          .bora {
              display: flex;
              align-items: center;
-             margin: 32% 0% 2% 27.6%;
+             margin: 32% 0% 2% 26%;
              position: absolute;
              z-index: 5;
  
