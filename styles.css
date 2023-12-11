@@ -56,6 +56,14 @@ button {
     text-transform: uppercase;
 }
 
+#quadro {
+    display: none;
+}
+
+#ej200 {
+    display: none;
+}
+
 #parte-do-show {
     white-space: nowrap;
 }
@@ -711,12 +719,6 @@ html {
           transform: rotate(-25deg);
         }
 
-        .ej {
-            width: 1px;
-            display: none;
-            visibility: hidden;
-        }
-
         #ej200-botao {
             position: absolute;
             top: 68%;
@@ -1110,6 +1112,7 @@ html {
         }
 
         #quadro {
+            display: block;
             width: 76%;
             margin: -6% 0% 0% 20%;
             position: absolute;
