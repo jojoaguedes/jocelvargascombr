@@ -617,7 +617,7 @@ html {
         display: flex;
         flex-direction: row;
         margin: 115% 0% 0% 41.5%;
-        max-width: 15%;
+        max-width: 14%;
         justify-content: space-evenly;
     }
 
