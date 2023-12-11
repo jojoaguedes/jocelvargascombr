@@ -56,6 +56,10 @@ button {
     text-transform: uppercase;
 }
 
+#eu {
+    display: none;
+}
+
 #quadro {
     display: none;
 }
