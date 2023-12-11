@@ -698,7 +698,7 @@ html {
         }
       
         #ej200 {
-          display:none;
+          visibility: hidden;
           top: 68%;
           left: 0%;
           width: 0.1%;
