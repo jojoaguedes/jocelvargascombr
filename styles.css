@@ -1352,10 +1352,10 @@ html {
                 line-height: 1.261em;
                 font-family: 'fonte-economica', monospace;
                 text-align: center;
-                margin-left: 33.5%;
+                margin-left: 34%;
                 margin-top: 60.5%;
                 font-weight: 300;
-                font-size: 100%;
+                font-size: 90%;
                 letter-spacing: 0.05em;
                 text-shadow: 0.0441em 0.0606em 0.0125em rgba(0, 0, 0, 0.300000);
             }
@@ -1363,7 +1363,7 @@ html {
             #toque {
                 position: absolute;
                 z-index: 3;
-                font-size: 72%;
+                font-size: 70%;
                 direction: ltr;
                 font-family: 'fonte-geral', monospace;
                 text-align: center;
@@ -1386,7 +1386,7 @@ html {
         .bora {
             display: flex;
             align-items: center;
-            margin: 35% 0% 2% 27.6%;
+            margin: 35% 0% 2% 26%;
             position: absolute;
             z-index: 5;
 
