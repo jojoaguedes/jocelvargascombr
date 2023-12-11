@@ -51,12 +51,15 @@ button {
     color: white;
     margin: 37.5%;
     border-width: 3px;
-    font-weight: 750;
     letter-spacing: 0.2em;
     text-transform: uppercase;
 }
 
 #eu {
+    display: none;
+}
+
+#eu-mob {
     display: none;
 }
 
@@ -147,7 +150,7 @@ html {
     #descricao {
         width: 87.5%;
         font-weight: 300;
-        font-size: 120%;
+        font-size: 92%;
         margin: 5% 0% 5% 7%;
     }
 
@@ -180,6 +183,8 @@ html {
     }
 
     .button-inicio {
+        font-size: 50%;
+        font-weight: 750;
         margin: 0.7% 0% 0.7% 0%;
     }
 
@@ -200,9 +205,9 @@ html {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        margin: 33% 0% 10% 2.5%;
+        margin: 23% 0% 10% 2.5%;
         width: 95%;
-        height: 132vh;
+        height: 120vh;
     }
 
     /* inicio contatos retrato */
@@ -219,7 +224,7 @@ html {
         display: flex;
         flex-direction: column;
         width: 10%;
-        margin: 10% 0% 0% 84.5%;
+        margin: 35% 0% 0% 84.5%;
         position: absolute;
       }
       
@@ -227,23 +232,21 @@ html {
         display: flex;
         position: relative;
         width: 86%;
-        margin: 10% 0% 0% 0%;
+        margin: 35% 0% 0% 0%;
       
         #eu {
-            display: none;
+          visibility: hidden;
         }
 
         #eu-mob {
+          display: block;
           position: relative;
           margin-left: 5%;
           width: 100%;
         }
       
         #quadro {
-          display:none;
-          width: 76%;
-          margin: -6% 0% 0% 20%;
-          position: relative;
+          visibility: hidden;
         } 
       
         #parte-do-show {
@@ -276,13 +279,7 @@ html {
         }
       
         #ej200 {
-          display:none;
-          position: absolute;
-          top: 68%;
-          left: 48%;
-          width: 20%;
-          margin: 0;
-          transform: rotate(-25deg);
+          visibility: hidden;
         }
 
         #ej200-botao {
@@ -299,7 +296,7 @@ html {
         display: flex;
         position: absolute;
         width: 100%;
-        margin: 100% 0% 0% 6%;
+        margin: 130% 0% 0% 6%;
       
         #chamada {
         direction: ltr;
@@ -316,20 +313,27 @@ html {
       
       .sociais-fim {
         display: flex;
-        max-width: 15%;
+        max-width: 12%;
         align-items: center;
-        margin: 115.5% 0% 0% 11%;
+        margin: 147% 0% 0% 19.5%;
         padding-bottom: 3%;
         position: absolute;
       }
       
       .button-fim {
-        margin: 135% 0% 0% 5%;
+        margin: 165% 0% 0% 5%;
         padding: 8%;
         position: absolute;
       }
+
+      #garanta {
+        font-size: 60%;
+        font-weight: 750;
+        margin-left: 15%;
+      }
       
       #siga-nos {
+        font-size: 70%;
         margin-right: 5%;
         font-family: "fonte-geral", monospace;
         text-transform: none;
@@ -357,45 +361,47 @@ html {
 
     /* inicio home celular paisagem */
     .home {
-        width:5%;
         display: flex;
-        margin: 1%;
+        margin: 0%;
     }
 
     #bem-vindo {
-        margin: 0% 0% 0% 2%;
+        font-size: 58%;
+        margin: 0% 0% 0% 1%;
     }
 
     #logo-inicio {
-        max-width: 60%;
+        max-width: 80%;
     }
 
     .logo {
-        margin: 1.5% 0% 0% 10%;
+        margin: 1% 0% 0% 10%;
         position: relative;
     }
 
     #descricao {
         width: 53%;
         font-weight: 500;
-        font-size: 118%;
-        margin: 2% 0% 3% 1%;
+        font-size: 58%;
+        margin: -1% 0% 3% 1%;
     }
 
     .sociais-inicio {
-        width: 20%;
+        width: 8%;
         position: absolute;
         z-index: 5;
         display: flex;
         flex-direction: row;
-        margin: 58% 0% 0% 18%;
+        margin: 54.5% 0% 0% 24%;
         align-items: center;
         justify-content: space-evenly;
     }
 
     .button-inicio {
+        font-size: 40%;
+        font-weight: 750;
         padding: 7% 7% 7% 7%;
-        margin-left: 2%;
+        margin-left: 12%;
     }
 
     .video {
@@ -404,16 +410,16 @@ html {
 
     .video-pc {
         aspect-ratio: 9/16;
-        margin: 2.2% 0% 0% 1.5%;
-        height: 123.7%;
+        margin: 2.2% 0% 0% 7%;
+        height: 92%;
         position: absolute;
     }
 
     .musica-inicio {
         display: flex;
         flex-direction: column;
-        margin: 1% 0% 0% 87%;
-        width: 8%;
+        margin: -3% 0% 0% 90%;
+        width: 7%;
         position: absolute;
         z-index: 0;
     }
@@ -422,16 +428,16 @@ html {
     /* inicio carrossel celular paisagem */
     .carrossel {
         display: flex;
-        margin: 12% 0% 0% 0.8%;
+        margin: -4% 0% 0% 0.8%;
         width: 97%;
-        height: 132vh;
+        height: 110vh;
     }
 
     /* inicio contatos celular paisagem */
     .contatos {
         #logo-fim {
-            width: 33%;
-            margin: 20% 0% 0% 5%;
+            width: 35%;
+            margin: 2% 0% 0% 2%;
             position: absolute;
             z-index: 6;
         }
@@ -440,28 +446,30 @@ html {
             display: flex;
             flex-direction: column;
             width: 5%;
-            margin: -1% 0% 0% 91.7%;
+            margin: -47% 0% 0% 92.5%;
             position: absolute;
             z-index: 5;
         }
 
         .sobrepostos {
+            width: 45%;
             display: flex;
             position: relative;
-            margin: 0% 0% 0% 52%;
+            margin: 5% 0% 0% 48%;
 
             #eu {
-                position: absolute;
-                margin-left: -6%;
-                z-index: 0;
-                width: 60%;
+                visibility: hidden;
+            }
+
+            #eu-mob {
+                display: block;
+                position: relative;
+                margin-left: 5%;
+                width: 100%;
             }
 
             #quadro {
-                width: 76%;
-                margin: -5% 0% 0% 15%;
-                position: absolute;
-                z-index: 1;
+                visibility: hidden;
             }
 
             #parte-do-show {
@@ -470,10 +478,10 @@ html {
                 line-height: 1.261em;
                 font-family: 'fonte-economica', monospace;
                 text-align: center;
-                margin-left: 36%;
+                margin-left: 40%;
                 margin-top: 60.5%;
                 font-weight: 300;
-                font-size: 100%;
+                font-size: 50%;
                 letter-spacing: 0.05em;
                 text-shadow: 0.0441em 0.0606em 0.0125em rgba(0, 0, 0, 0.300000);
             }
@@ -481,29 +489,25 @@ html {
             #toque {
                 position: absolute;
                 z-index: 3;
-                font-size: 80%;
+                font-size: 30%;
                 direction: ltr;
                 font-family: 'fonte-geral', monospace;
                 text-align: center;
-                margin: 81% 0% 0% 35%;
+                margin: 83% 0% 0% 39%;
                 line-height: 100%;
                 text-transform: none;
                 letter-spacing: -0.05em;
             }
 
             #ej200 {
-                position: absolute;
-                z-index: 4;
-                width: 21%;
-                margin: 68% 0% 0% 43%;
-                transform: rotate(-25deg);
+                visibility: hidden;
             }
         }
 
         .bora {
             display: flex;
             align-items: center;
-            margin: 82% 0% 2% 27.6%;
+            margin: -13% 0% 2% 12.6%;
             position: absolute;
             z-index: 5;
 
@@ -515,12 +519,14 @@ html {
                 text-transform: none;
                 letter-spacing: -0.05em;
                 font-weight: 500;
-                font-size: 102%;
+                font-size: 52%;
             }
         }
 
         #garanta {
-            margin: 40% 0% 0% 30%;
+            font-size: 40%;
+            font-weight: 750;
+            margin: 0% 0% 0% 18%;
         }
 
         #space {
@@ -532,12 +538,13 @@ html {
             flex-direction: column;
             max-width: 5%;
             align-items: center;
-            margin: 3% 0% 0% 43.5%;
+            margin: -47.5% 0% 0% 42%;
             position: absolute;
             z-index: 6;
         }
 
         #siga-nos {
+            font-size: 50%;
             margin-right: 5%;
             padding: 25%;
             font-family: 'fonte-geral', monospace;
@@ -667,7 +674,6 @@ html {
         margin: 10% 0% 0% 0%;
       
         #eu {
-          display:none;
           visibility: hidden;
         }
 
@@ -678,10 +684,7 @@ html {
         }
       
         #quadro {
-          display: none;
           visibility: hidden;
-          max-width: 1px;
-          margin: -6% 0% 0% 20%;
         } 
       
         #parte-do-show {
@@ -714,13 +717,7 @@ html {
         }
       
         #ej200 {
-          display: none;
           visibility: hidden;
-          top: 68%;
-          left: 0%;
-          max-width: 1px;
-          margin: 0;
-          transform: rotate(-25deg);
         }
 
         #ej200-botao {
@@ -889,17 +886,11 @@ html {
             margin: 2% 0% 0% 52%;
 
             #eu {
-                position: absolute;
-                margin-left: -6%;
-                z-index: 0;
-                width: 100%;
+                visibility: hidden;
             }
 
             #quadro {
-                width: 76%;
-                margin: -5% 0% 0% 15%;
-                position: absolute;
-                z-index: 1;
+                visibility: hidden;
             }
 
             #parte-do-show {
@@ -930,11 +921,7 @@ html {
             }
 
             #ej200 {
-                position: absolute;
-                z-index: 4;
-                width: 21%;
-                margin: 68% 0% 0% 43%;
-                transform: rotate(-25deg);
+                visibility: hidden;
             }
         }
 
@@ -1105,6 +1092,7 @@ html {
         margin: 30% 0% 0% 0%;
 
         #eu {
+            display: block;
             position: absolute;
             margin-left: -2%;
             z-index: 0;
@@ -1151,6 +1139,7 @@ html {
         }
 
         #ej200 {
+            display: block;
             position: absolute;
             z-index: 4;
             width: 20%;
@@ -1320,6 +1309,7 @@ html {
             margin: -12% 0% 0% 50%;
 
             #eu {
+                display: block;
                 position: absolute;
                 margin-left: -6%;
                 z-index: 0;
@@ -1331,6 +1321,7 @@ html {
             }
 
             #quadro {
+                display: block;
                 width: 76%;
                 margin: -5% 0% 0% 15%;
                 position: absolute;
@@ -1365,6 +1356,7 @@ html {
             }
 
             #ej200 {
+                display: block;
                 position: absolute;
                 z-index: 4;
                 width: 21%;
@@ -2609,6 +2601,7 @@ html {
             margin: 0% 0% 0% 50%;
 
             #eu {
+                display: block;
                 position: absolute;
                 margin-left: -6%;
                 z-index: 0;
@@ -2616,10 +2609,11 @@ html {
             }
 
             #eu-mob {
-                display: none;
+                visibility: hidden;
             }
 
             #quadro {
+                display: block;
                 width: 76%;
                 margin: -5% 0% 0% 15%;
                 position: absolute;
@@ -2654,6 +2648,7 @@ html {
             }
 
             #ej200 {
+                display: block;
                 position: absolute;
                 z-index: 4;
                 width: 21%;
