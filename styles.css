@@ -1734,7 +1734,7 @@ html {
     /* inicio carrossel tablet paisagem */
     .carrossel {
         display: flex;
-        margin: 15.5% 0% 0% 1.4%;
+        margin: 13% 0% 0% 1.4%;
         width: 97%;
         height: 122vh;
     }
@@ -1792,7 +1792,7 @@ html {
                 margin-left: 36%;
                 margin-top: 60.5%;
                 font-weight: 300;
-                font-size: 100%;
+                font-size: 92%;
                 letter-spacing: 0.05em;
                 text-shadow: 0.0441em 0.0606em 0.0125em rgba(0, 0, 0, 0.300000);
             }
@@ -1800,11 +1800,11 @@ html {
             #toque {
                 position: absolute;
                 z-index: 3;
-                font-size: 80%;
+                font-size: 75%;
                 direction: ltr;
                 font-family: 'fonte-geral', monospace;
                 text-align: center;
-                margin: 81% 0% 0% 35%;
+                margin: 81% 0% 0% 36%;
                 line-height: 100%;
                 text-transform: none;
                 letter-spacing: -0.05em;
@@ -1823,7 +1823,7 @@ html {
         .bora {
             display: flex;
             align-items: center;
-            margin: 32% 0% 2% 29.6%;
+            margin: 32% 0% 2% 27%;
             position: absolute;
             z-index: 5;
 
@@ -1840,7 +1840,7 @@ html {
         }
 
         #garanta {
-            margin: 40% 0% 0% 33%;
+            margin: 40% 0% 0% 32%;
         }
 
         #space {
