@@ -664,9 +664,8 @@ html {
       
         #quadro {
           display:none;
-          width:0%;
+          width:0.1%;
           margin: -6% 0% 0% 20%;
-          position: relative;
         } 
       
         #parte-do-show {
@@ -700,10 +699,9 @@ html {
       
         #ej200 {
           display:none;
-          position: absolute;
           top: 68%;
-          left: 48%;
-          width: 0%;
+          left: 0%;
+          width: 0.1%;
           margin: 0;
           transform: rotate(-25deg);
         }
