@@ -600,7 +600,7 @@ html {
     .musica-inicio {
         display: flex;
         flex-direction: column;
-        margin: 0% 0% 0% 82%;
+        margin: 0% 0% 0% 80%;
         width: 11.5%;
         position: absolute;
         z-index: 0;
@@ -622,9 +622,10 @@ html {
     }
 
     .button-inicio {
-        font-size: 50%;
-        font-weight: 750;
-        margin: 0.7% 0% 0.7% 8%;
+        font-size: 45%;
+        font-weight: 350;
+        padding: 20%;
+        margin: 0% 0% 0% 15%;
     }
 
     .video-pc {
