@@ -2424,7 +2424,7 @@ html {
             width: 45%;
             display: flex;
             position: relative;
-            margin: 0% 0% 0% 50%;
+            margin: -2% 0% 0% 50%;
 
             #eu {
                 display: block;
