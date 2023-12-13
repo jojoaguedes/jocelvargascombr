@@ -43,13 +43,12 @@ span {
 }
 
 button {
-    padding: 0.7% 0.7% 0.7% 0.7%;
+    padding: 0.7%;
     white-space: nowrap;
     font-family: fonte-geral;
     background-color: rgb(50, 64, 71);
     border-color: rgb(253, 236, 11);
     color: white;
-    margin-top: 37.5%;
     border-width: 3px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
@@ -73,10 +72,6 @@ button {
 
 #parte-do-show {
     white-space: nowrap;
-}
-
-.button-fim {
-    margin-left: 40%;
 }
 
 .logo {
@@ -569,74 +564,74 @@ html {
         max-width: 100%;
     }
 
-    /* inicio home retrato */
-    .home {
+     /* inicio home retrato */
+     .home {
         margin: 1%;
-        width: fit-content;
-        display: flex;
+        width: 100%;
     }
 
+    #bem-vindo {
+        font-size: 80%;
+        margin-left: 8%;
+    }
+
+   
     #logo-inicio {
-        max-width: 150%;
+        max-width: 160%;
+        margin: 15% 0% 0% 12%;
     }
 
     .logo {
-        max-width: 100%;
-        margin: 5% 0% 0% 8%;
         position: relative;
     }
 
     #descricao {
-        width: 86%;
+        width: 87.5%;
         font-weight: 300;
         font-size: 120%;
-        margin: 2% 0% 5% 7%;
-    }
-
-    .space {
-        margin-bottom: 50%;
+        margin-top: 18%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .musica-inicio {
         display: flex;
         flex-direction: column;
-        margin: 0% 0% 0% 80%;
+        margin: 3.5% 0% 0% 82%;
         width: 11.5%;
         position: absolute;
         z-index: 0;
     }
-
 
     .space-h {
         margin-right: 20%;
     }
 
     .sociais-inicio {
-        position: absolute;
-        z-index: 5;
         display: flex;
         flex-direction: row;
-        margin: 115% 0% 0% 41.5%;
-        max-width: 14%;
+        margin-top: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 13%;
         justify-content: space-evenly;
     }
 
     .button-inicio {
-        font-size: 45%;
-        font-weight: 450;
-        padding: 20%;
-        margin: 5% 0% 0% 15%;
+        margin: 0.7% 0% 0.7% 0%;
     }
 
     .video-pc {
         display: none;
-        visibility: hidden;
         width: 0%;
     }
 
     .video {
+        display: flex;
         aspect-ratio: 9/16;
-        margin: -155% 0% 0% 2.5%;
+        margin-top: -127.25%;
+        margin-left: auto;
+        margin-right: auto;
         width: 95%;
         height: 95%;
     }
@@ -644,37 +639,39 @@ html {
     /* inicio carrossel retrato */
     .carrossel {
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
-        margin: 31% 0% 10% 2.5%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 53%;
         width: 95%;
-        height: 130vh;
+        height: 132vh;
     }
 
     /* inicio contatos retrato */
     .contatos {
-        display: flex;
+        width: 100%;
     }
 
     #logo-fim {
         display: none;
-        visibility: hidden;
         width: 0%;
     }
 
     .musica-fim {
         display: flex;
         flex-direction: column;
-        width: 10%;
-        margin: 2% 0% 0% 84.5%;
+        width: 9%;
+        margin: 0% 0% 0% 85.5%;
         position: absolute;
+        z-index: 5;
     }
 
     .sobrepostos {
         display: flex;
         position: relative;
-        width: 86%;
-        margin: 2% 0% 0% 0%;
+        width: 88%;
+        margin-left: auto;
+        margin-right: auto;
 
         #eu {
             visibility: hidden;
@@ -682,8 +679,9 @@ html {
 
         #eu-mob {
             display: block;
-            position: relative;
-            margin-left: 5%;
+            position: absolute;
+            margin-left: -4%;
+            z-index: 0;
             width: 100%;
         }
 
@@ -693,14 +691,13 @@ html {
 
         #parte-do-show {
             position: absolute;
-            top: 58%;
-            left: 42%;
-            z-index: 11;
+            z-index: 2;
             line-height: 1.261em;
-            font-family: "fonte-economica", monospace;
+            font-family: 'fonte-economica', monospace;
             text-align: center;
+            margin: 60% 0% 0% 36.5%;
             font-weight: 300;
-            font-size: 100%;
+            font-size: 90%;
             letter-spacing: 0.05em;
             text-shadow: 0.0441em 0.0606em 0.0125em rgba(0, 0, 0, 0.300000);
         }
@@ -708,13 +705,13 @@ html {
         #toque {
             padding-top: 17%;
             position: absolute;
-            top: 64.5%;
-            left: 44%;
-            z-index: 10;
-            font-size: 70%;
+            z-index: 3;
+            font-size: 69%;
             direction: ltr;
-            font-family: "fonte-geral", monospace;
+            font-family: 'fonte-geral', monospace;
             text-align: center;
+            margin-left: 36.5%;
+            margin-top: 66.5%;
             line-height: 100%;
             text-transform: none;
             letter-spacing: -0.05em;
@@ -735,51 +732,55 @@ html {
     }
 
     .bora {
-        display: flex;
         position: absolute;
         width: 100%;
-        margin: 91% 0% 0% 5%;
+        margin-top: 91%;
+        z-index: 5;
 
         #chamada {
             direction: ltr;
-            font-family: "fonte-geral", monospace;
+            font-family: 'fonte-geral', monospace;
             text-align: center;
             line-height: 1.3em;
             text-transform: none;
             letter-spacing: 0.02em;
             font-weight: 350;
-            font-size: 106.5%;
+            font-size: 94%;
             white-space: nowrap;
         }
     }
 
     .sociais-fim {
         display: flex;
-        max-width: 12.5%;
+        justify-content: center;
+        width: 10%;
+        max-width: 100%;
         align-items: center;
-        margin: 105% 0% 0% 22.5%;
-        padding-bottom: 3%;
-        position: absolute;
+        margin-top: 105%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .button-fim {
-        font-size: 66%;
-        font-weight: 550;
-        margin: 121% 0% 0% 22.5%;
-        padding: 7%;
-        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5%;
     }
 
     #siga-nos {
         font-size: 60%;
-        margin-right: 5%;
-        font-family: "fonte-geral", monospace;
+        margin-right: 15%;
+        font-family: 'fonte-geral', monospace;
         text-transform: none;
         flex: 1;
         flex-grow: 1;
         flex-shrink: 0;
         white-space: nowrap;
     }
+
 }
 
 /* celular pequenos na orientação paisagem */
@@ -1008,17 +1009,21 @@ html {
     /* inicio home retrato */
     .home {
         margin: 1%;
-        width: fit-content;
-        display: flex;
+        width: 100%;
     }
 
+    #bem-vindo {
+        font-size: 80%;
+        margin-left: 8%;
+    }
+
+   
     #logo-inicio {
-        width: 150%;
+        max-width: 160%;
+        margin: 15% 0% 0% 12%;
     }
 
     .logo {
-        max-width: 100%;
-        margin: 5% 0% 0% 25%;
         position: relative;
     }
 
@@ -1026,33 +1031,30 @@ html {
         width: 87.5%;
         font-weight: 300;
         font-size: 120%;
-        margin: 18% 0% 5% 7%;
-    }
-
-    .space {
-        margin-bottom: 50%;
+        margin-top: 18%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .musica-inicio {
         display: flex;
         flex-direction: column;
-        margin: 0% 0% 0% 82%;
+        margin: 3.5% 0% 0% 82%;
         width: 11.5%;
         position: absolute;
         z-index: 0;
     }
-
 
     .space-h {
         margin-right: 20%;
     }
 
     .sociais-inicio {
-        position: absolute;
-        z-index: 5;
         display: flex;
         flex-direction: row;
-        margin: 100% 0% 0% 43.5%;
+        margin-top: 25%;
+        margin-left: auto;
+        margin-right: auto;
         max-width: 13%;
         justify-content: space-evenly;
     }
@@ -1067,8 +1069,11 @@ html {
     }
 
     .video {
+        display: flex;
         aspect-ratio: 9/16;
-        margin: -127.25% 0% 0% 2.5%;
+        margin-top: -127.25%;
+        margin-left: auto;
+        margin-right: auto;
         width: 95%;
         height: 95%;
     }
@@ -1076,9 +1081,10 @@ html {
     /* inicio carrossel retrato */
     .carrossel {
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
-        margin: 53% 0% 10% 2.5%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 53%;
         width: 95%;
         height: 132vh;
     }
@@ -1086,7 +1092,7 @@ html {
     /* inicio contatos retrato */
 
     .contatos {
-        display: flex;
+        width: 100%;
     }
 
     #logo-fim {
@@ -1097,8 +1103,8 @@ html {
     .musica-fim {
         display: flex;
         flex-direction: column;
-        width: 10%;
-        margin: 33% 0% 0% 78.7%;
+        width: 8.5%;
+        margin: 5% 0% 0% 80%;
         position: absolute;
         z-index: 5;
     }
@@ -1107,12 +1113,13 @@ html {
         display: flex;
         position: relative;
         width: 88%;
-        margin: 30% 0% 0% 0%;
+        margin-left: auto;
+        margin-right: auto;
 
         #eu {
             display: block;
             position: absolute;
-            margin-left: -2%;
+            margin-left: -8.5%;
             z-index: 0;
             width: 100%;
         }
@@ -1124,7 +1131,7 @@ html {
         #quadro {
             display: block;
             width: 76%;
-            margin: -6% 0% 0% 20%;
+            margin: -6% 0% 0% 13.5%;
             position: absolute;
             z-index: 1;
         }
@@ -1135,7 +1142,7 @@ html {
             line-height: 1.261em;
             font-family: 'fonte-economica', monospace;
             text-align: center;
-            margin: 60.5% 0% 0% 43%;
+            margin: 60.5% 0% 0% 36.5%;
             font-weight: 300;
             font-size: 100%;
             letter-spacing: 0.05em;
@@ -1149,7 +1156,7 @@ html {
             direction: ltr;
             font-family: 'fonte-geral', monospace;
             text-align: center;
-            margin-left: 43%;
+            margin-left: 36%;
             margin-top: 80%;
             line-height: 100%;
             text-transform: none;
@@ -1162,16 +1169,15 @@ html {
             z-index: 4;
             width: 20%;
             margin-left: 30%;
-            margin: 68% 0% 0% 48%;
+            margin: 68% 0% 0% 41%;
             transform: rotate(-25deg);
         }
     }
 
     .bora {
-        display: flex;
         position: absolute;
         width: 100%;
-        margin: 116% 0% 0% 16.5%;
+        margin-top: 87%;
         z-index: 5;
 
         #chamada {
@@ -1182,26 +1188,29 @@ html {
             text-transform: none;
             letter-spacing: 0.02em;
             font-weight: 350;
-            font-size: 115%;
+            font-size: 105%;
             white-space: nowrap;
         }
     }
 
     .sociais-fim {
         display: flex;
-        max-width: 15%;
+        justify-content: center;
+        width: 10%;
+        max-width: 100%;
         align-items: center;
-        margin: 125.5% 0% 0% 11%;
-        padding-bottom: 3%;
-        position: absolute;
-        z-index: 6;
+        margin-top: 101.5%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .button-fim {
-        margin: 143% 0% 0% 24%;
-        padding: 8%;
-        position: absolute;
-        z-index: 11;
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5%;
     }
 
     #siga-nos {
@@ -1448,35 +1457,36 @@ html {
     /* inicio home retrato */
     .home {
         margin: 1%;
-        width: fit-content;
-        display: flex;
+        width: 100%;
+    }
+
+    #bem-vindo {
+        font-size: 130%;
+        margin-left: 8%;
     }
 
     #logo-inicio {
-        width: 150%;
+        max-width: 160%;
+        margin: 15% 0% 0% 12%;
     }
 
     .logo {
-        max-width: 100%;
-        margin: 5% 0% 0% 25%;
         position: relative;
     }
 
     #descricao {
-        width: 87.5%;
+        width: 90%;
         font-weight: 300;
-        font-size: 120%;
-        margin: 18% 0% 5% 7%;
-    }
-
-    .space {
-        margin-bottom: 50%;
+        font-size: 190%;
+        margin-top: 18%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .musica-inicio {
         display: flex;
         flex-direction: column;
-        margin: 0% 0% 0% 82%;
+        margin: 3.5% 0% 0% 82%;
         width: 11.5%;
         position: absolute;
         z-index: 0;
@@ -1488,11 +1498,11 @@ html {
     }
 
     .sociais-inicio {
-        position: absolute;
-        z-index: 5;
         display: flex;
         flex-direction: row;
-        margin: 123.5% 0% 0% 41.5%;
+        margin-top: 25%;
+        margin-left: auto;
+        margin-right: auto;
         max-width: 15%;
         justify-content: space-evenly;
     }
@@ -1507,8 +1517,11 @@ html {
     }
 
     .video {
+        display: flex;
         aspect-ratio: 9/16;
-        margin: -127.25% 0% 0% 2.5%;
+        margin-top: -127.25%;
+        margin-left: auto;
+        margin-right: auto;
         width: 95%;
         height: 95%;
     }
@@ -1516,9 +1529,10 @@ html {
     /* inicio carrossel retrato */
     .carrossel {
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
-        margin: 33% 0% 10% 2.5%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 33%;
         width: 95%;
         height: 132vh;
     }
@@ -1526,7 +1540,7 @@ html {
     /* inicio contatos retrato */
 
     .contatos {
-        display: flex;
+        width: 100%;
     }
 
     #logo-fim {
@@ -1538,7 +1552,7 @@ html {
         display: flex;
         flex-direction: column;
         width: 8.5%;
-        margin: 5% 0% 0% 79.7%;
+        margin: 5% 0% 0% 80%;
         position: absolute;
         z-index: 5;
     }
@@ -1547,11 +1561,13 @@ html {
         display: flex;
         position: relative;
         width: 88%;
-        margin: 0% 0% 0% 0%;
+        margin-left: auto;
+        margin-right: auto;
 
         #eu {
+            display: block;
             position: absolute;
-            margin-left: -2%;
+            margin-left: -8.5%;
             z-index: 0;
             width: 100%;
         }
@@ -1561,8 +1577,9 @@ html {
         }
 
         #quadro {
+            display: block;
             width: 76%;
-            margin: -6% 0% 0% 20%;
+            margin: -6% 0% 0% 13.5%;
             position: absolute;
             z-index: 1;
         }
@@ -1573,9 +1590,9 @@ html {
             line-height: 1.261em;
             font-family: 'fonte-economica', monospace;
             text-align: center;
-            margin: 60.5% 0% 0% 35%;
+            margin: 60.5% 0% 0% 36.5%;
             font-weight: 300;
-            font-size: 100%;
+            font-size: 165%;
             letter-spacing: 0.05em;
             text-shadow: 0.0441em 0.0606em 0.0125em rgba(0, 0, 0, 0.300000);
         }
@@ -1583,7 +1600,7 @@ html {
         #toque {
             position: absolute;
             z-index: 3;
-            font-size: 80%;
+            font-size: 135%;
             direction: ltr;
             font-family: 'fonte-geral', monospace;
             text-align: center;
@@ -1595,20 +1612,20 @@ html {
         }
 
         #ej200 {
+            display: block;
             position: absolute;
             z-index: 4;
             width: 20%;
             margin-left: 30%;
-            margin: 68% 0% 0% 48%;
+            margin: 68% 0% 0% 41%;
             transform: rotate(-25deg);
         }
     }
 
     .bora {
-        display: flex;
         position: absolute;
         width: 100%;
-        margin: 87% 0% 0% 5.5%;
+        margin-top: 87%;
         z-index: 5;
 
         #chamada {
@@ -1619,26 +1636,29 @@ html {
             text-transform: none;
             letter-spacing: 0.02em;
             font-weight: 350;
-            font-size: 115%;
+            font-size: 175%;
             white-space: nowrap;
         }
     }
 
     .sociais-fim {
         display: flex;
-        max-width: 15%;
+        justify-content: center;
+        width: 15%;
+        max-width: 100%;
         align-items: center;
-        margin: 101.5% 0% 0% 11%;
-        padding-bottom: 3%;
-        position: absolute;
-        z-index: 6;
+        margin-top: 101.5%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .button-fim {
-        margin: 125% 0% 0% 15%;
-        padding: 8%;
-        position: absolute;
-        z-index: 11;
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5%;
     }
 
     #siga-nos {
@@ -2536,7 +2556,7 @@ html {
 @media (min-width: 1281px) and (orientation: landscape) {
 
     /* para formato paisagem */
-   
+
     div {
         max-width: webkit-min-content;
         max-width: -moz-min-content;
@@ -2616,8 +2636,8 @@ html {
     /* inicio carrossel paisagem */
     .carrossel {
         display: flex;
-        margin: 14.5% 0% 0% 0%;
-        width: 100%;
+        margin: 23% 0% 0% 4.9%;
+        width: 90%;
         height: 132vh;
     }
 
