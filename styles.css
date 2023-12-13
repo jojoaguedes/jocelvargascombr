@@ -610,7 +610,7 @@ html {
     .sociais-inicio {
         display: flex;
         flex-direction: row;
-        margin-top: 25%;
+        margin-top: 15%;
         margin-left: auto;
         margin-right: auto;
         max-width: 13%;
@@ -642,7 +642,7 @@ html {
         flex-wrap: wrap;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 53%;
+        margin-top: 18%;
         width: 95%;
         height: 132vh;
     }
