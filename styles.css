@@ -680,6 +680,7 @@ html {
         #eu-mob {
             display: block;
             position: relative;
+            margin-top: 2%;
             margin-left: -4%;
             z-index: 0;
             width: 100%;
@@ -1013,7 +1014,7 @@ html {
     }
 
     #bem-vindo {
-        font-size: 80%;
+        font-size: 90%;
         margin-left: 8%;
     }
 
@@ -1030,7 +1031,7 @@ html {
     #descricao {
         width: 87.5%;
         font-weight: 300;
-        font-size: 120%;
+        font-size: 125%;
         margin-top: 15%;
         margin-left: auto;
         margin-right: auto;
@@ -1461,7 +1462,7 @@ html {
     }
 
     #bem-vindo {
-        font-size: 130%;
+        font-size: 150%;
         margin-left: 8%;
     }
 
