@@ -588,7 +588,7 @@ html {
     #descricao {
         width: 87.5%;
         font-weight: 300;
-        font-size: 120%;
+        font-size: 125%;
         margin-top: 18%;
         margin-left: auto;
         margin-right: auto;
@@ -610,7 +610,7 @@ html {
     .sociais-inicio {
         display: flex;
         flex-direction: row;
-        margin-top: 15%;
+        margin-top: 8%;
         margin-left: auto;
         margin-right: auto;
         max-width: 13%;
@@ -661,7 +661,7 @@ html {
         display: flex;
         flex-direction: column;
         width: 9%;
-        margin: 0% 0% 0% 85.5%;
+        margin: -90.5% 0% 0% 85.5%;
         position: absolute;
         z-index: 5;
     }
@@ -679,7 +679,7 @@ html {
 
         #eu-mob {
             display: block;
-            position: absolute;
+            position: relative;
             margin-left: -4%;
             z-index: 0;
             width: 100%;
@@ -734,7 +734,7 @@ html {
     .bora {
         position: absolute;
         width: 100%;
-        margin-top: 91%;
+        margin-top: 1%;
         z-index: 5;
 
         #chamada {
@@ -745,7 +745,7 @@ html {
             text-transform: none;
             letter-spacing: 0.02em;
             font-weight: 350;
-            font-size: 94%;
+            font-size: 95%;
             white-space: nowrap;
         }
     }
@@ -756,7 +756,7 @@ html {
         width: 10%;
         max-width: 100%;
         align-items: center;
-        margin-top: 105%;
+        margin-top: 15%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1031,7 +1031,7 @@ html {
         width: 87.5%;
         font-weight: 300;
         font-size: 120%;
-        margin-top: 18%;
+        margin-top: 15%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1052,7 +1052,7 @@ html {
     .sociais-inicio {
         display: flex;
         flex-direction: row;
-        margin-top: 25%;
+        margin-top: 18%;
         margin-left: auto;
         margin-right: auto;
         max-width: 13%;
@@ -1071,7 +1071,7 @@ html {
     .video {
         display: flex;
         aspect-ratio: 9/16;
-        margin-top: -127.25%;
+        margin-top: -122%;
         margin-left: auto;
         margin-right: auto;
         width: 95%;
@@ -1084,7 +1084,7 @@ html {
         flex-wrap: wrap;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 53%;
+        margin-top: 23%;
         width: 95%;
         height: 132vh;
     }
@@ -1905,34 +1905,36 @@ html {
     /* inicio home retrato */
     .home {
         margin: 1%;
-        width: fit-content;
-        display: flex;
+        width: 100%;
+    }
+
+    #bem-vindo {
+        font-size: 160%;
+        margin-left: 8%;
     }
 
     #logo-inicio {
-        max-width: 150%;
+        max-width: 160%;
+        margin: 15% 0% 0% 12%;
     }
 
     .logo {
-        margin: 4% 0% 0% 10%;
         position: relative;
     }
 
     #descricao {
-        width: 87.5%;
+        width: 90%;
         font-weight: 300;
         font-size: 230%;
-        margin: 8% 0% 5% 7%;
-    }
-
-    .space {
-        margin-bottom: 50%;
+        margin-top: 15%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .musica-inicio {
         display: flex;
         flex-direction: column;
-        margin: 0% 0% 0% 82%;
+        margin: 3.5% 0% 0% 82%;
         width: 11.5%;
         position: absolute;
         z-index: 0;
@@ -1944,12 +1946,12 @@ html {
     }
 
     .sociais-inicio {
-        position: absolute;
-        z-index: 5;
         display: flex;
         flex-direction: row;
-        margin: 100% 0% 0% 41.5%;
-        max-width: 15%;
+        margin-top: 15%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 20%;
         justify-content: space-evenly;
     }
 
@@ -1963,8 +1965,11 @@ html {
     }
 
     .video {
+        display: flex;
         aspect-ratio: 9/16;
-        margin: -127.25% 0% 0% 2.5%;
+        margin-top: -105%;
+        margin-left: auto;
+        margin-right: auto;
         width: 95%;
         height: 95%;
     }
@@ -1972,9 +1977,10 @@ html {
     /* inicio carrossel retrato */
     .carrossel {
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
-        margin: 47% 0% 10% 2.5%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15%;
         width: 95%;
         height: 132vh;
     }
@@ -1982,7 +1988,7 @@ html {
     /* inicio contatos retrato */
 
     .contatos {
-        display: flex;
+        width: 100%;
     }
 
     #logo-fim {
@@ -1994,7 +2000,7 @@ html {
         display: flex;
         flex-direction: column;
         width: 8.5%;
-        margin: 5% 0% 0% 79.7%;
+        margin: 5% 0% 0% 80%;
         position: absolute;
         z-index: 5;
     }
@@ -2003,12 +2009,13 @@ html {
         display: flex;
         position: relative;
         width: 88%;
-        margin: 0% 0% 0% 0%;
+        margin-left: auto;
+        margin-right: auto;
 
         #eu {
             display: block;
             position: absolute;
-            margin-left: -2%;
+            margin-left: -8.5%;
             z-index: 0;
             width: 100%;
         }
@@ -2020,7 +2027,7 @@ html {
         #quadro {
             display: block;
             width: 76%;
-            margin: -6% 0% 0% 20%;
+            margin: -6% 0% 0% 13.5%;
             position: absolute;
             z-index: 1;
         }
@@ -2031,9 +2038,9 @@ html {
             line-height: 1.261em;
             font-family: 'fonte-economica', monospace;
             text-align: center;
-            margin: 60.5% 0% 0% 43.5%;
+            margin: 60.5% 0% 0% 36.5%;
             font-weight: 300;
-            font-size: 180%;
+            font-size: 195%;
             letter-spacing: 0.05em;
             text-shadow: 0.0441em 0.0606em 0.0125em rgba(0, 0, 0, 0.300000);
         }
@@ -2041,12 +2048,12 @@ html {
         #toque {
             position: absolute;
             z-index: 3;
-            font-size: 150%;
+            font-size: 155%;
             direction: ltr;
             font-family: 'fonte-geral', monospace;
             text-align: center;
-            margin-left: 43%;
-            margin-top: 80.3%;
+            margin-left: 36%;
+            margin-top: 80%;
             line-height: 100%;
             text-transform: none;
             letter-spacing: -0.05em;
@@ -2058,16 +2065,15 @@ html {
             z-index: 4;
             width: 20%;
             margin-left: 30%;
-            margin: 68% 0% 0% 48%;
+            margin: 68% 0% 0% 41%;
             transform: rotate(-25deg);
         }
     }
 
     .bora {
-        display: flex;
         position: absolute;
         width: 100%;
-        margin: 87% 0% 0% 21%;
+        margin-top: 87%;
         z-index: 5;
 
         #chamada {
@@ -2078,27 +2084,29 @@ html {
             text-transform: none;
             letter-spacing: 0.02em;
             font-weight: 350;
-            font-size: 195%;
+            font-size: 200%;
             white-space: nowrap;
         }
     }
 
     .sociais-fim {
         display: flex;
-        max-width: 15%;
+        justify-content: center;
+        width: 15%;
+        max-width: 100%;
         align-items: center;
-        margin: 101.5% 0% 0% 31.5%;
-        padding-bottom: 3%;
-        position: absolute;
-        z-index: 6;
+        margin-top: 100.5%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .button-fim {
-        font-size: 150%;
-        margin: 116% 0% 0% 29.5%;
-        padding: 4%;
-        position: absolute;
-        z-index: 11;
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5%;
     }
 
     #siga-nos {
