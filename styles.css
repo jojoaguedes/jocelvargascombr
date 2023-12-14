@@ -2573,6 +2573,7 @@ html {
         }
 
         #garanta {
+            margin-top: 37.4%;
             margin-left: 39.3%;
         }
 
@@ -2792,6 +2793,11 @@ html {
             img {
                 object-fit: contain;
             }
+        }
+
+        #garanta {
+            margin-top: 37.8%;
+            margin-left: 39.4%;
         }
 
         .space-h {
