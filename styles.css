@@ -2675,9 +2675,9 @@ html {
         flex-wrap: wrap;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 23%;
+        margin-top: 16%;
         width: 90%;
-        height: 132vh;
+        height: 119vh;
     }
 
     /* inicio contatos paisagem */
@@ -2765,7 +2765,7 @@ html {
         .bora {
             display: flex;
             align-items: center;
-            margin: 32% 0% 2% 37%;
+            margin: 32% 0% 2% 35.5%;
             position: absolute;
             z-index: 5;
 
@@ -2777,7 +2777,7 @@ html {
                 text-transform: none;
                 letter-spacing: -0.05em;
                 font-weight: 500;
-                font-size: 102%;
+                font-size: 122%;
             }
         }
 
@@ -2797,7 +2797,7 @@ html {
 
         #garanta {
             margin-top: 37.8%;
-            margin-left: 39.4%;
+            margin-left: 40%;
         }
 
         .space-h {
